@@ -63,8 +63,8 @@
 
     <script type="text/javascript">
 
-        var index = Math.floor((Date.now() / (1000*60*60*24)) % QUOTES.length);
-        var s = QUOTES[index].split("\n");
+        var index = Math.floor((Date.now() / (1000*60*60*24)));
+        var s = QUOTES[index % QUOTES.length].split("\n");
 
         console.log("index: " + index);
 
