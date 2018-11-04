@@ -19,56 +19,7 @@
 	
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
 
-    <style type="text/css">
-
-        html {
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            position: fixed;
-            height: 100%;
-            width: 100%;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: #FFFFFF;
-            font-family: 'Anton', sans-serif;
-            font-size: 6vw;
-            color: #000000;
-        }
-
-        #quote {
-            text-align: center;
-            padding: 2vh;
-        }
-
-        #author {
-            text-align: right;
-            font-size: 5vw;
-            padding-top: 2vh;
-        }
-
-        .watermark {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 25%;
-            opacity: 0.4;
-            z-index: -1;
-        }
-
-        .signature {
-            position: absolute;
-            bottom: 0;
-            font-size: 3vw;
-            padding: 2vw;
-        }
-    </style>
+    <link rel="stylesheet" href="fortune.css">
 
     <script type="text/javascript" src="quotes.js"></script>
 
@@ -96,8 +47,8 @@
         document.querySelector("#author").innerHTML = s[1];
 
         console.log("index: " + index);
-
+        
     </script>
-		
+
 </body>
 </html>
