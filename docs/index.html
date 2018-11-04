@@ -25,7 +25,7 @@
 
         body {
             position: fixed;
-            overflow: hidden;
+            /* overflow: hidden; */
             height: 100%;
             width: 100%;
             margin: 0;
@@ -89,10 +89,11 @@
         var index = Math.floor((Date.now() / FREQ));
         var s = QUOTES[index % QUOTES.length].split("\n");
 
-        console.log("index: " + index);
-
         document.getElementById("text").innerHTML = s[0];
         document.getElementById("author").innerHTML = s[1];
+
+        console.log("index: " + index);
+
     </script>
 		
 </body>
