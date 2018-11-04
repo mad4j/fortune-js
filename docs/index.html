@@ -50,11 +50,12 @@
         }
 
         .watermark {
-            background-position: top left;
-            background-image: url(favicon.png);
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: auto;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 25%;
+            opacity: 0.4;
+            z-index: -1;
         }
 }
 
@@ -64,8 +65,10 @@
 
 </head>
 
-<body class="watermark">
+<body>
     
+    <img class="watermark" src="watermark.png"/>
+
     <div id="quote">
         <div id="text"></div>
         <div id="author"></div>
