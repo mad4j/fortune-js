@@ -23,9 +23,24 @@
 
     <script type="text/javascript" src="quotes.js"></script>
 
+    <script type="text/javascript">
+
+        function updateQuote() {
+            const FREQ = 1000*60*60*24;
+
+            var index = Math.floor((Date.now() / FREQ));
+            var s = QUOTES[index % QUOTES.length].split("\n");
+
+            document.querySelector("#text").innerHTML = s[0];
+            document.querySelector("#author").innerHTML = s[1];
+
+            console.log("index: " + index);
+        }
+    </script>
+
 </head>
 
-<body>
+<body onload="updateQuote();">
     
     <img class="watermark" src="watermark.png"/>
 
@@ -35,20 +50,6 @@
     </div>
 
     <div class="signature">daniele.olmisani@gmail.com</div>
-
-    <script type="text/javascript">
-
-        const FREQ = 1000*60*60*24;
-
-        var index = Math.floor((Date.now() / FREQ));
-        var s = QUOTES[index % QUOTES.length].split("\n");
-
-        document.querySelector("#text").innerHTML = s[0];
-        document.querySelector("#author").innerHTML = s[1];
-
-        console.log("index: " + index);
-        
-    </script>
 
 </body>
 </html>
