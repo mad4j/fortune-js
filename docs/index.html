@@ -92,8 +92,8 @@
         var index = Math.floor((Date.now() / FREQ));
         var s = QUOTES[index % QUOTES.length].split("\n");
 
-        document.getElementById("text").innerHTML = s[0];
-        document.getElementById("author").innerHTML = s[1];
+        document.querySelector("#text").innerHTML = s[0];
+        document.querySelector("#author").innerHTML = s[1];
 
         console.log("index: " + index);
 
