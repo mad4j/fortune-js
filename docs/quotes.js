@@ -45,5 +45,15 @@ const QUOTES = [
     "“Il pessimista non è nient'altro che un ottimista ben informato.”\nOscar Wilde",
     "“Chi, sentendosi amato, è povero? Oh, nessuno.”\nOscar Wilde",
     "“Parlate pure male di me, purché ne parliate.”\nOscar Wilde",
-
+    "“Alcuni causano la felicità ovunque vadano; altri, ogni volta che se ne vanno.”\nOscar Wilde",
+    "“La coerenza è degli sciocchi.”\nOscar Wilde",
+    "“Un po' di sincerità è pericolosa, ma molta sincerità è assolutamente fatale.”\nOscar Wilde",
+    "“La cosa più banale diventa deliziosa appena la si nasconde.”\nOscar Wilde",
+    "“Nulla peggiora le cose quanto la calma.”\nOscar Wilde",
+    "“Non c'è peccato tranne la stupidità.”\nOscar Wilde",
+    "“Posso resistere a tutto tranne che alla tentazione.”\nOscar Wilde",
+    "“Il Cattolicesimo è la sola religione in cui valga la pena morire.”\nOscar Wilde",
+    "“Non possiamo proteggere completamente la gente dalla propria stupidità.”\nGunther Oettinger",
+    "“Se tutti gli imbecilli decidessero di dire tutto quello che pensano... beh, ci sarebbe un silenzio terribile!”\nGroucho Marx",
+    "“La seconda cosa più fastidiosa e irritante dopo gli stupidi? I sostenitori degli stupidi.”\nFrancesco Agati"
 ];
