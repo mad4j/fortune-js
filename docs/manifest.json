@@ -1,0 +1,16 @@
+{
+  "name": "Fortune",
+  "short_name": "Fortune",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#2A3443",
+  "description": "A javascript fortune teller",
+  "theme_color": "#2A3443",
+  "icons": [
+    {
+      "src": "./watermark-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
