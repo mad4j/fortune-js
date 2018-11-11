@@ -1,3 +1,4 @@
+
 const cacheName = 'fortune-conf-v1';
 const staticAssets = [
   './',
@@ -17,10 +18,24 @@ self.addEventListener('install', async event => {
     await cache.addAll(staticAssets);
 });
 
+
 self.addEventListener('fetch', event => {
     const req = event.request;
-    event.respondWith(cacheFirst(req));
+    event.respondWith(networkFirst(req));
 });
+
+
+async function networkFirst(req) {
+    const cache = await caches.open(cacheName);
+    try {
+        const fresh = await fetch(req);
+        cache.put(req, fresh.clone());
+        return fresh;
+    } catch (e) {
+        const cachedResponse = await cache.match(req);
+        return cachedResponse;
+    }
+}
 
 async function cacheFirst(req) {
     const cache = await caches.open(cacheName);
