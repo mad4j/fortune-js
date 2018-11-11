@@ -6,9 +6,11 @@ const FREQ = 1000*60*60*24;
 //register event
 window.addEventListener('load', e => {
 
+    //load quote database and trigger UI update
     loadQuoteDatabase('./quotes.json')
         .then(q => updateQuote(q));
 
+    //register ServiceWorkder to support offline content
     registerServiceWorker();
 })
 
@@ -16,7 +18,10 @@ window.addEventListener('load', e => {
 //load quote database
 async function loadQuoteDatabase(url) {
 
+    //fetch provided URL 
     const q = await fetch(url);
+
+    //and return promised content as JSON string
     return q.json();
 }
 
