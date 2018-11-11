@@ -1,10 +1,10 @@
 {
   "name": "Fortune",
   "short_name": "Fortune",
-  "start_url": ".",
-  "display": "fullscreen",
-  "background_color": "white",
   "description": "A javascript fortune teller",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "white",
   "theme_color": "white",
   "icons": [
     {
