@@ -44,8 +44,9 @@ async function registerServiceWorker() {
 function updateQuote(quotes) {
 
     //select a quote index form database
-    const index = Math.floor((Date.now() / FREQ)) % quotes.length;
-    console.log(`quote index: ${index} of total ${quotes.length} quotes`);
+    const t = Math.floor((Date.now() / FREQ));
+    const index = (t*11) % quotes.length;
+    console.log(`time: ${t}, quote: ${index} / ${quotes.length}`);
 
     //retrieve quote from database
     const q = quotes[index];
