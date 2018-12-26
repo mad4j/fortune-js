@@ -322,5 +322,10 @@
     {
         "text" : "I computer sono inutili. Ti sanno dare solo risposte.", 
         "author" : "Pablo Picasso"
+    },
+
+    {
+        "text" : "La Scienza dei Computer non riguarda i computer più di quanto l'astronomia riguardi i telescopi.", 
+        "author" : "Edsger Wybe Dijkstra"
     }
 ]
