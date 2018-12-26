@@ -46,7 +46,7 @@ function updateQuote(quotes) {
     //select a quote index form database
     const t = Math.floor((Date.now() / FREQ));
     const index = (t*11) % quotes.length;
-    console.log(`time: ${t}, quote: ${index} / ${quotes.length}`);
+    console.log(`[FORTUNE-JS] time: ${t}, quote: ${index} of ${quotes.length}`);
 
     //retrieve quote from database
     const q = quotes[index];
@@ -57,7 +57,7 @@ function updateQuote(quotes) {
 
     //delay until next update in millies
     var nextUpdate = FREQ - Date.now() % FREQ;
-    console.log(`next update within ${Math.floor(nextUpdate / (1000*60))} minutes`);
+    console.log(`[FORTUNE-JS] next update within ${Math.floor(nextUpdate / (1000*60))} minutes`);
 
     //setup trigger for next update
     setTimeout(updateQuote, nextUpdate, quotes);
