@@ -7,6 +7,7 @@ const staticAssets = [
   './favicon.png',
   './manifest.json',
   './quotes.json',
+  './font.css',
   './styles.css',
   './sw.js',
   './watermark-512x512.png'
