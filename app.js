@@ -45,7 +45,7 @@ function updateQuote(quotes) {
 
     //select a quote index form database
     const t = Math.floor((Date.now() / FREQ));
-    const index = (t*13) % quotes.length;
+    const index = (t+13) % quotes.length;
     console.log(`[FORTUNE-JS] time: ${t}, quote: ${index} of ${quotes.length}`);
 
     //retrieve quote from database
