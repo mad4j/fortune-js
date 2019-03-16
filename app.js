@@ -12,7 +12,7 @@ window.addEventListener('load', e => {
 
     //register ServiceWorkder to support offline content
     registerServiceWorker();
-})
+});
 
 
 //load quote database
