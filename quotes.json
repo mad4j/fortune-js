@@ -455,6 +455,11 @@
     },
 
     {
+        "text" : "Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiar se stesso.", 
+        "author" : "Lev Tolstoj"
+    },
+    
+    {
         "text" : "Il tempo per leggere, come il tempo per amare, dilata il tempo per vivere.", 
         "author" : "Daniel Pennac"
     },
@@ -467,6 +472,91 @@
     {
         "text" : "La bellezza non è che una promessa di felicità.", 
         "author" : "Stendhal"
+    },
+
+    {
+        "text" : "Fa ciò che senti giusto nel tuo cuore, poiché verrai criticato comunque.", 
+        "author" : "Eleanor Roosevelt"
+    },
+
+    {
+        "text" : "Se non ricordi che amore t’abbia mai fatto commettere la più piccola follia, allora non hai amato.", 
+        "author" : "William Shakespeare"
+    },
+
+    {
+        "text" : "Il saggio sa di essere stupido, è lo stupido invece che crede di essere saggio.", 
+        "author" : "William Shakespeare"
+    },
+
+    {
+        "text" : "Se giudichi le persone, non avrai tempo per amarle.", 
+        "author" : "Madre Teresa di Calcutta"
+    },
+
+    {
+        "text" : "Ho sempre tentato. Ho sempre fallito. Non discutere. Prova ancora. Fallisci ancora. Fallisci meglio.", 
+        "author" : "Samuel Beckett"
+    },
+
+    {
+        "text" : "La vera felicità costa poco; se è cara, non è di buona qualità.", 
+        "author" : "François-René de Chateaubriand"
+    },
+
+    {
+        "text" : "Chi vive senza follia non è poi così saggio come crede.", 
+        "author" : "François-René de Chateaubriand"
+    },
+
+    {
+        "text" : "Sii il cambiamento che vuoi vedere nel mondo.", 
+        "author" : "Mahatma Gandhi"
+    },
+
+    {
+        "text" : "L’unica vera saggezza è sapere di non sapere nulla.", 
+        "author" : "Socrate"
+    },
+
+    {
+        "text" : "Non è da dove vieni. È dove stai andando che conta.", 
+        "author" : "Ella Fitzgerald"
+    },
+
+    {
+        "text" : "I cimiteri sono pieni di persone che pensavano di essere indispensabili.", 
+        "author" : "Georges Clemenceau"
+    },
+
+    {
+        "text" : "Giudica il tuo successo in relazione a ciò a cui hai dovuto rinunciare per ottenerlo.", 
+        "author" : "Dalai Lama"
+    },
+
+    {
+        "text" : "Imparerai a tue spese che nel lungo tragitto della vita incontrerai tante maschere e pochi volti.", 
+        "author" : "Luigi Pirandello"
+    },
+
+    {
+        "text" : "La miglior vendetta è un grande successo.", 
+        "author" : "Frank Sinatra"
+    },
+
+    {
+        "text" : "Se votare facesse qualche differenza non ce lo lascerebbero fare.", 
+        "author" : "Mark Twain"
+    },
+
+    {
+        "text" : "La vita è troppo breve per passarla a vivere il sogno di qualcun altro.", 
+        "author" : "Hugh Hefner"
+    },
+
+    {
+        "text" : "Coloro che sono abbastanza folli da pensare di poter cambiare il mondo di solito lo fanno", 
+        "author" : "Steve Jobs"
     }
  
 ]
