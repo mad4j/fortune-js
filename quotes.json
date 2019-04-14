@@ -65,6 +65,11 @@
     },
 
     {
+        "text" : "La vita non è quella che si è vissuta, ma quella che si ricorda e come la si ricorda per raccontarla.", 
+        "author" : "Gabriel García Márquez"
+    },
+
+    {
         "text" : "La solitudine è ascoltare il vento e non poterlo raccontare a nessuno.", 
         "author" : "Jim Morrison"
     },
@@ -365,7 +370,7 @@
     },
 
     {
-        "text" : "Si vede bene solo con il cuore. L’essenziale è invisibile agli occhi.", 
+        "text" : "Ecco il mio segreto. È molto semplice: si vede solo con il cuore. L'essenziale è invisibile agli occhi.", 
         "author" : "Antoine de Saint-Exupéry"
     },
 
@@ -437,6 +442,31 @@
     {
         "text" : "La creatività richiede coraggio.", 
         "author" : "Henri Matisse"
+    },
+
+    {
+        "text" : "Coloro che sognano di giorno sanno molte cose che sfuggono a chi sogna soltanto di notte.", 
+        "author" : "Edgar Allan Poe"
+    },
+
+    {
+        "text" : "Tutta la varietà, tutta la delizia, tutta la bellezza della vita è composta d'ombra e di luce.", 
+        "author" : "Lev Tolstoj"
+    },
+
+    {
+        "text" : "Il tempo per leggere, come il tempo per amare, dilata il tempo per vivere.", 
+        "author" : "Daniel Pennac"
+    },
+
+    {
+        "text" : "Fondare biblioteche è come costruire ancora granai pubblici, ammassare riserve contro un inverno dello spirito [...].", 
+        "author" : "Marguerite Yourcenar"
+    },
+
+    {
+        "text" : "La bellezza non è che una promessa di felicità.", 
+        "author" : "Stendhal"
     }
  
 ]
