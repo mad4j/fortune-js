@@ -545,6 +545,11 @@
     },
 
     {
+        "text" : "Il paradiso lo preferisco per il clima, l’inferno per la compagnia.", 
+        "author" : "Mark Twain"
+    },
+
+    {
         "text" : "Se votare facesse qualche differenza non ce lo lascerebbero fare.", 
         "author" : "Mark Twain"
     },
@@ -555,8 +560,28 @@
     },
 
     {
-        "text" : "Coloro che sono abbastanza folli da pensare di poter cambiare il mondo di solito lo fanno", 
+        "text" : "Coloro che sono abbastanza folli da pensare di poter cambiare il mondo di solito lo fanno.", 
         "author" : "Steve Jobs"
+    },
+
+    {
+        "text" : "Le cose più belle della vita o sono immorali, o sono illegali, oppure fanno ingrassare.", 
+        "author" : "George Bernard Shaw"
+    },
+
+    {
+        "text" : "Sembra sempre impossibile, finché non viene fatto.", 
+        "author" : "Nelson Mandela"
+    },
+
+    {
+        "text" : "Se vuoi che qualcosa venga detto, chiedi ad un uomo. Se vuoi che qualcosa venga fatto, chiedi ad una donna.", 
+        "author" : "Margaret Thatcher"
+    },
+
+    {
+        "text" : "Se vuoi qualcosa che non hai mai avuto, devi fare qualcosa che non hai mai fatto.", 
+        "author" : "Thomas Jefferson"
     }
  
 ]
