@@ -480,11 +480,6 @@
     },
 
     {
-        "text" : "Fa ciò che senti giusto nel tuo cuore, poiché verrai criticato comunque.", 
-        "author" : "Eleanor Roosevelt"
-    },
-
-    {
         "text" : "Se non ricordi che amore t’abbia mai fatto commettere la più piccola follia, allora non hai amato.", 
         "author" : "William Shakespeare"
     },
@@ -540,6 +535,11 @@
     },
 
     {
+        "text" : "La vita non si spiega, si vive.", 
+        "author" : "Luigi Pirandello"
+    },
+
+    {
         "text" : "Imparerai a tue spese che nel lungo tragitto della vita incontrerai tante maschere e pochi volti.", 
         "author" : "Luigi Pirandello"
     },
@@ -561,6 +561,11 @@
 
     {
         "text" : "Se votare facesse qualche differenza non ce lo lascerebbero fare.", 
+        "author" : "Mark Twain"
+    },
+
+    {
+        "text" : "Dai a ogni giornata la possibilità di essere la più bella della tua vita.", 
         "author" : "Mark Twain"
     },
 
@@ -627,6 +632,26 @@
     {
         "text" : "Nessuno può farti sentire inferiore senza il tuo consenso.", 
         "author" : "Eleanor Roosevelt"
+    },
+
+    {
+        "text" : "Fa ciò che senti giusto nel tuo cuore, poiché verrai criticato comunque.", 
+        "author" : "Eleanor Roosevelt"
+    },
+
+    {
+        "text" : "La vita è come una commedia: non importa quanto è lunga, ma come è recitata.", 
+        "author" : "Lucio Anneo Seneca"
+    },
+
+    {
+        "text" : "Il più sprecato di tutti i giorni è quello senza risate.", 
+        "author" : "Nicolas Chamfort"
+    },
+
+    {
+        "text" : "Ai più importanti bivi della nostra vita non c’è segnaletica.", 
+        "author" : "Ernest Hemingway"
     }
  
 ]
