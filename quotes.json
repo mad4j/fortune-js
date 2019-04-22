@@ -265,6 +265,11 @@
     },
 
     {
+        "text" : "Esperienza è semplicemente il nome che diamo ai nostri errori.", 
+        "author" : "Oscar Wilde"
+    },
+
+    {
         "text" : "Non possiamo proteggere completamente la gente dalla propria stupidità.", 
         "author" : "Gunther Oettinger"
     },
@@ -570,6 +575,11 @@
     },
 
     {
+        "text" : "Tra vent’anni non sarete delusi dalle cose che avrete fatto, ma da quelle che non avrete fatto.", 
+        "author" : "Mark Twain"
+    },
+
+    {
         "text" : "La vita è troppo breve per passarla a vivere il sogno di qualcun altro.", 
         "author" : "Hugh Hefner"
     },
@@ -586,6 +596,11 @@
 
     {
         "text" : "Sembra sempre impossibile, finché non viene fatto.", 
+        "author" : "Nelson Mandela"
+    },
+
+    {
+        "text" : "Possano le tue scelte riflettere le tue speranze, non le tue paure.", 
         "author" : "Nelson Mandela"
     },
 
@@ -652,6 +667,31 @@
     {
         "text" : "Ai più importanti bivi della nostra vita non c’è segnaletica.", 
         "author" : "Ernest Hemingway"
+    },
+
+    {
+        "text" : "La vita è la somma di tutte le tue scelte.", 
+        "author" : "Albert Camus"
+    },
+
+    {
+        "text" : "Una volta presa una decisione, l’universo cospira perché si verifichi.", 
+        "author" : "Ralph Waldo Emerson"
+    },
+
+    {
+        "text" : "Non conosco la domanda, ma il sesso è sicuramente la risposta.", 
+        "author" : "Woody Allen"
+    },
+
+    {
+        "text" : "Quando perdiamo il diritto di essere diversi, perdiamo il privilegio di essere liberi.", 
+        "author" : "Charles Evans Hughes"
+    },
+
+    {
+        "text" : "I pregiudizi sono ciò che gli sciocchi usano per ragionare.", 
+        "author" : "Voltaire"
     }
  
 ]
