@@ -435,6 +435,11 @@
     },
 
     {
+        "text" : "Chi conosce tutte le risposte, non si è fatto tutte le domande.", 
+        "author" : "Confucio"
+    },
+
+    {
         "text" : "Se dovessi perderti non mi stancherò di cercarti finché, tra mille volti, non ritroverò il tuo sguardo.", 
         "author" : "Daniele"
     },
@@ -550,6 +555,11 @@
     },
 
     {
+        "text" : "I due giorni più importanti della vita sono il giorno in cui sei nato e il giorno in cui scopri il perché.", 
+        "author" : "Mark Twain"
+    },
+
+    {
         "text" : "Se votare facesse qualche differenza non ce lo lascerebbero fare.", 
         "author" : "Mark Twain"
     },
@@ -587,6 +597,36 @@
     {
         "text" : "Un giorno senza un sorriso è un giorno perso.", 
         "author" : "Charlie Chaplin"
+    },
+
+    {
+        "text" : "La vita è ciò che ti accade mentre sei occupato a fare altri progetti.", 
+        "author" : "John Lennon"
+    },
+
+    {
+        "text" : "Se non posso fare grandi cose, posso fare piccole cose in un modo fantastico.", 
+        "author" : "Martin Luther King Jr."
+    },
+
+    {
+        "text" : "Se puoi sognarlo, puoi farlo.", 
+        "author" : "Walt Disney"
+    },
+
+    {
+        "text" : "Chi non ride mai non è una persona seria.", 
+        "author" : "Fryderyk Chopin"
+    },
+
+    {
+        "text" : "Il futuro appartiene a coloro che credono nella bellezza dei propri sogni.", 
+        "author" : "Eleanor Roosevelt"
+    },
+
+    {
+        "text" : "Nessuno può farti sentire inferiore senza il tuo consenso.", 
+        "author" : "Eleanor Roosevelt"
     }
  
 ]
