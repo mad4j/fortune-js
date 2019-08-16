@@ -500,6 +500,11 @@
     },
 
     {
+        "text" : "Quello che noi facciamo è solo una goccia nell'oceano, ma se non lo facessimo l'oceano avrebbe una goccia in meno.", 
+        "author" : "Madre Teresa di Calcutta"
+    },
+
+    {
         "text" : "Ho sempre tentato. Ho sempre fallito. Non discutere. Prova ancora. Fallisci ancora. Fallisci meglio.", 
         "author" : "Samuel Beckett"
     },
@@ -631,7 +636,12 @@
 
     {
         "text" : "Se non posso fare grandi cose, posso fare piccole cose in un modo fantastico.", 
-        "author" : "Martin Luther King Jr."
+        "author" : "Martin Luther King"
+    },
+
+    {
+        "text" : "La mia libertà finisce dove comincia la vostra.", 
+        "author" : "Martin Luther King"
     },
 
     {
