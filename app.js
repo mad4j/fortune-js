@@ -52,8 +52,8 @@ function updateQuote(quotes) {
     const q = quotes[index];
 
     //update UI
-    document.querySelector('#text').innerHTML = `“${q.text}”`;
-    document.querySelector('#author').innerHTML = `${q.author}`;
+    $('#text').html(`“${q.text}”`);
+    $('#author').html(`${q.author}`);
 
     //delay until next update in millies
     var nextUpdate = FREQ - Date.now() % FREQ;

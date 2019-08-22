@@ -10,6 +10,7 @@ const staticAssets = [
   './font.css',
   './styles.css',
   './sw.js',
+  './jquery-3.4.1.min.js',
   './watermark-512x512.png'
 ];
 
