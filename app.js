@@ -6,12 +6,12 @@ const FREQ = 1000*60*60*24;
 //register event
 window.addEventListener('load', e => {
 
+    //register ServiceWorkder to support offline content
+    registerServiceWorker();
+
     //load quote database and trigger UI update
     loadQuoteDatabase('./quotes.json')
         .then(q => updateQuote(q));
-
-    //register ServiceWorkder to support offline content
-    registerServiceWorker();
 });
 
 
@@ -35,7 +35,7 @@ async function registerServiceWorker() {
           alert('ServiceWorker registration failed. Sorry about that.');
         }
       } else {
-        console.log("ERROR: Service Worker NOT supported.")
+        console.log('[FORTUNE-JS] ERROR: Service Worker NOT supported.')
       }
 }
 
