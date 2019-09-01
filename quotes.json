@@ -495,6 +495,11 @@
     },
 
     {
+        "text" : "Se l'amore è cieco, tanto meglio si accorda con la notte.", 
+        "author" : "William Shakespeare"
+    },
+
+    {
         "text" : "Se giudichi le persone, non avrai tempo per amarle.", 
         "author" : "Madre Teresa di Calcutta"
     },
@@ -675,6 +680,11 @@
     },
 
     {
+        "text" : "L'amore è un'amicizia impazzita.", 
+        "author" : "Lucio Anneo Seneca"
+    },
+
+    {
         "text" : "Il più sprecato di tutti i giorni è quello senza risate.", 
         "author" : "Nicolas Chamfort"
     },
@@ -696,6 +706,11 @@
 
     {
         "text" : "Non conosco la domanda, ma il sesso è sicuramente la risposta.", 
+        "author" : "Woody Allen"
+    },
+
+    {
+        "text" : " La differenza tra l'amore e il sesso è che il sesso allevia le tensioni e l'amore le provoca.", 
         "author" : "Woody Allen"
     },
 
@@ -737,5 +752,75 @@
     {
         "text" : "Anche un viaggio di mille miglia inizia con un singolo passo.", 
         "author" : "Lao Tzu"
+    },
+
+    {
+        "text" : "Chiudi gli occhi e vedrai.", 
+        "author" : "Joseph Joubert"
+    },
+
+    {
+        "text" : "L'occhio non vede se il cuore non vuole.", 
+        "author" : "Giovanni Soriano"
+    },
+
+    {
+        "text" : "A volte ci si sfama anche con gli occhi.", 
+        "author" : "Dacia Maraini"
+    },
+
+    {
+        "text" : "La più diffusa malattia degli occhi è l'amore a prima vista.", 
+        "author" : "Gino Cervi"
+    },
+
+    {
+        "text" : "Gli unici occhi belli sono quelli che vi guardano con tenerezza.", 
+        "author" : "Coco Chanel"
+    },
+
+    {
+        "text" : "Più opinioni hai, e meno hai occhi per vedere.", 
+        "author" : "Wim Wenders"
+    },
+
+    {
+        "text" : "È facile ingannare l'occhio, ma è difficile ingannare il cuore.", 
+        "author" : "Al Pacino"
+    },
+
+    {
+        "text" : "Ma gli innamorati, i veri innamorati inventano con gli occhi la loro verità.", 
+        "author" : "Molière"
+    },
+
+    {
+        "text" : "L'importante non è la fotocamera, ma l'occhio.", 
+        "author" : "Alfred Eisenstaedt"
+    },
+
+    {
+        "text" : "Nessuno arriva in paradiso con gli occhi asciutti.", 
+        "author" : "Thomas Adams"
+    },
+
+    {
+        "text" : "Non tutti coloro che vedono hanno aperto gli occhi, e non tutti coloro che guardano, vedono.", 
+        "author" : "Baltasar Gracian"
+    },
+
+    {
+        "text" : "Quando menti a qualcuno, guardalo dritto negli occhi.", 
+        "author" : "Mason Cooley"
+    },
+
+    {
+        "text" : "Agli occhi di un povero, tutti i governi si equivalgono.", 
+        "author" : "Charles Régismanset"
+    },
+
+    {
+        "text" : "Agli occhi di un povero, tutti i governi si equivalgono.", 
+        "author" : "Georges Rodenbach"
     }
 ]
