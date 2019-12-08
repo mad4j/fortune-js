@@ -1,6 +1,45 @@
 [
+    {
+        "text" : "Io non lo so come sto, non ci voglio pensare. Certe volte è meglio non saperlo, come stiamo.",
+        "author" : "Daria Bignardi" 
+    },
     
-     {
+    {
+        "text" : "Volevo ricordarti che l’amore è rimanere e non sparire per vedere se uno poi ci tiene.",
+        "author" : "Charles Bukowski" 
+    },
+    
+    {
+        "text" : "Poche cose impressionano davvero un lettore quanto il primo libro capace di toccargli davvero il cuore.",
+        "author" : "Carlos Ruiz Zafòn" 
+    },
+    
+    {
+        "text" : "I libri servono a capire e a capirsi, e a creare un universo comune anche in persone lontanissime.",
+        "author" : "Susanna Tamaro" 
+    },
+    
+    {
+        "text" : "L’amore vero è così: non ha nessuno scopo e nessuna ragione, e non si sottomette a nessun potere fuorché alla grazia umana.",
+        "author" : "Elsa Morante" 
+    },
+    
+    {
+        "text" : "Gli eventi che ci tiriamo addosso, per sgradevoli che siano, sono necessari al fine di apprendere quello che imparare dobbiamo.",
+        "author" : "Richard Bach" 
+    },
+    
+    {
+        "text" : "Poi il treno entrò in una galleria e, quando ne riemerse, i pendolari videro che Hiroshima non c’era più.",
+        "author" : "Amélie Nothomb" 
+    },
+    
+    {
+        "text" : "Il momento in cui i tuoi amici hanno bisogno di te è quando hanno torto. Non hanno bisogno di te quando hanno ragione.",
+        "author" : "Harper Lee" 
+    },
+    
+    {
         "text" : "Noi viviamo per i libri. Dolce missione in questo mondo dominato dal disordine e dalla decadenza.",
         "author" : "Umberto Eco" 
     },
