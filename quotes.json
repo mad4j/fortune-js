@@ -1,5 +1,65 @@
 [
     {
+        "text" : "La gente non migliora, diventa solo più furba.",
+        "author" : "Stephen King" 
+    },
+    
+    {
+        "text" : "È bene sospettare di tutti, finché non si riesce a dimostrare che sono innocenti.",
+        "author" : "Agatha Christie" 
+    },
+    
+    {
+        "text" : "Ama tutti, credi a pochi e non far del male a nessuno.",
+        "author" : "William Shakespeare" 
+    },
+    
+    {
+        "text" : "La vostra preoccupazione per ciò che gli altri pensano di voi scompare una volta che capite quanto di rado pensano a voi.",
+        "author" : "David Foster Wallace" 
+    },
+    
+    {
+        "text" : "Avere fede in Dio non significava restare inerti: significava credere nella possibilità di avere successo se si faceva del proprio meglio onestamente e con impegno.",
+        "author" : "Ken Follett" 
+    },
+    
+    {
+        "text" : "Ognuno vede quel che tu pari, pochi sentono quel che tu sei.",
+        "author" : "Niccolò Machiavelli" 
+    },
+    
+    {
+        "text" : "Scrivere è sempre nascondere qualcosa in modo che venga poi scoperto.",
+        "author" : "Italo Calvino" 
+    },
+    
+    {
+        "text" : "Fino al giorno in cui mi minacciarono di non lasciarmi più leggere, non seppi di amare la lettura [...]",
+        "author" : "Harper Lee" 
+    },
+    
+    {
+        "text" : "Le sorprese, come le sfortune, raramente vengono da sole.",
+        "author" : "Charles Dickens" 
+    },
+    
+    {
+        "text" : "Ognuno si racconta la vita come gli fa comodo.",
+        "author" : "Elena Ferrante" 
+    },
+    
+    {
+        "text" : "I veri amici condividono anche il silenzio.",
+        "author" : "Luis Sepulveda" 
+    },
+    
+    {
+        "text" : "Alla gente non piace parlare ma, sicuramente, piace essere ascoltata.",
+        "author" : "Donato Carrisi" 
+    },
+    
+    {
         "text" : "Io non lo so come sto, non ci voglio pensare. Certe volte è meglio non saperlo, come stiamo.",
         "author" : "Daria Bignardi" 
     },
