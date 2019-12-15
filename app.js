@@ -14,14 +14,6 @@ window.addEventListener('load', e => {
         .then(q => updateQuote(q));
 });
 
-window.addEventListener('onmousedown', e => {
-  console.log("down");
-});
-
-window.addEventListener('onmouseup', e => {
-  console.log("up");
-});
-
 
 //load quote database
 async function loadQuoteDatabase(url) {
