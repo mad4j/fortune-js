@@ -1,1006 +1,806 @@
 [
-    {
-        "text" : "L’amore non è grande né piccolo, è soltanto amore.",
-        "author" : "Paulo Coelho" 
-    },
-    
-    {
-        "text" : "La gente non migliora, diventa solo più furba.",
-        "author" : "Stephen King" 
-    },
-    
-    {
-        "text" : "È bene sospettare di tutti, finché non si riesce a dimostrare che sono innocenti.",
-        "author" : "Agatha Christie" 
-    },
-    
-    {
-        "text" : "Ama tutti, credi a pochi e non far del male a nessuno.",
-        "author" : "William Shakespeare" 
-    },
-    
-    {
-        "text" : "La vostra preoccupazione per ciò che gli altri pensano di voi scompare una volta che capite quanto di rado pensano a voi.",
-        "author" : "David Foster Wallace" 
-    },
-    
-    {
-        "text" : "Avere fede in Dio non significava restare inerti: significava credere nella possibilità di avere successo se si faceva del proprio meglio onestamente e con impegno.",
-        "author" : "Ken Follett" 
-    },
-    
-    {
-        "text" : "Ognuno vede quel che tu pari, pochi sentono quel che tu sei.",
-        "author" : "Niccolò Machiavelli" 
-    },
-    
-    {
-        "text" : "Scrivere è sempre nascondere qualcosa in modo che venga poi scoperto.",
-        "author" : "Italo Calvino" 
-    },
-    
-    {
-        "text" : "Fino al giorno in cui mi minacciarono di non lasciarmi più leggere, non seppi di amare la lettura [...]",
-        "author" : "Harper Lee" 
-    },
-    
-    {
-        "text" : "Le sorprese, come le sfortune, raramente vengono da sole.",
-        "author" : "Charles Dickens" 
-    },
-    
-    {
-        "text" : "Ognuno si racconta la vita come gli fa comodo.",
-        "author" : "Elena Ferrante" 
-    },
-    
-    {
-        "text" : "I veri amici condividono anche il silenzio.",
-        "author" : "Luis Sepulveda" 
-    },
-    
-    {
-        "text" : "Alla gente non piace parlare ma, sicuramente, piace essere ascoltata.",
-        "author" : "Donato Carrisi" 
-    },
-    
-    {
-        "text" : "Io non lo so come sto, non ci voglio pensare. Certe volte è meglio non saperlo, come stiamo.",
-        "author" : "Daria Bignardi" 
-    },
-    
-    {
-        "text" : "Volevo ricordarti che l’amore è rimanere e non sparire per vedere se uno poi ci tiene.",
-        "author" : "Charles Bukowski" 
-    },
-    
-    {
-        "text" : "Poche cose impressionano davvero un lettore quanto il primo libro capace di toccargli davvero il cuore.",
-        "author" : "Carlos Ruiz Zafòn" 
-    },
-    
-    {
-        "text" : "I libri servono a capire e a capirsi, e a creare un universo comune anche in persone lontanissime.",
-        "author" : "Susanna Tamaro" 
-    },
-    
-    {
-        "text" : "L’amore vero è così: non ha nessuno scopo e nessuna ragione, e non si sottomette a nessun potere fuorché alla grazia umana.",
-        "author" : "Elsa Morante" 
-    },
-    
-    {
-        "text" : "Gli eventi che ci tiriamo addosso, per sgradevoli che siano, sono necessari al fine di apprendere quello che imparare dobbiamo.",
-        "author" : "Richard Bach" 
-    },
-    
-    {
-        "text" : "Poi il treno entrò in una galleria e, quando ne riemerse, i pendolari videro che Hiroshima non c’era più.",
-        "author" : "Amélie Nothomb" 
-    },
-    
-    {
-        "text" : "Il momento in cui i tuoi amici hanno bisogno di te è quando hanno torto. Non hanno bisogno di te quando hanno ragione.",
-        "author" : "Harper Lee" 
-    },
-    
-    {
-        "text" : "Noi viviamo per i libri. Dolce missione in questo mondo dominato dal disordine e dalla decadenza.",
-        "author" : "Umberto Eco" 
-    },
-    
-    {
-        "text" : "Paura e desiderio: non è forse questo l’amore?",
-        "author" : "Francesca Diotallevi" 
-    },
-
-    {
-        "text" : "Ci sono certi sguardi di donna che l’uomo amante non iscambierebbe con l’intero possesso del corpo di lei.",
-        "author" : "Gabriele D'Annunzio" 
-    },
-
-    {
-        "text" : "La violenza è l'ultimo rifugio degli incapaci.",
-        "author" : "Isaac Asimov" 
-    }, 
-
-    {
-        "text" : "Non esiste saggezza.",
-        "author" : "Gianrico Carofiglio" 
-    }, 
-
-    {
-        "text" : "Io non conosco tutto quello che sarà, ma qualunque cosa sia, vi andrò incontro ridendo.",
-        "author" : "Herman Melville" 
-    }, 
-
-    {
-        "text" : "La mediocrità non riconosce nulla che le sia superiore; ma il talento riconosce istantaneamente il genio.", 
-        "author" : "Sir Arthur Conan Doyle"
-    },
-
-    {
-        "text" : "Non piangere perché è finito, sorridi perché è successo.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Nessuna persona merita le tue lacrime, e chi le merita sicuramente non ti farà piangere.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Un vero amico è chi ti prende per la mano e ti tocca il cuore... sempre.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Il fatto che una persona non ti ami come tu vorresti non vuol dire che non ti ami con tutta se stessa.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "E' la vita, più che la morte, a non avere limiti.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Non c’è medicina che guarisca quello che non guarisce la felicità.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Nulla di quanto si fa a letto è immorale se contribuisce a perpetuare l’amore.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "L’unica cosa peggiore della cattiva salute è la cattiva fama.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Nessun posto nella vita è più triste di un letto vuoto.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Non passare il tempo con qualcuno che non sia disposto a passarlo con te.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "È impossibile non finire per essere come gli altri credono che uno sia.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "Un bravo scrittore non si riconosce tanto da quello che pubblica quanto da quello che butta nel cestino della carta.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "La vita non è quella che si è vissuta, ma quella che si ricorda e come la si ricorda per raccontarla.", 
-        "author" : "Gabriel García Márquez"
-    },
-
-    {
-        "text" : "La solitudine è ascoltare il vento e non poterlo raccontare a nessuno.", 
-        "author" : "Jim Morrison"
-    },
-
-    {
-        "text" : "Con il fascino potete cavarvela per un quarto d'ora. Poi è meglio che sappiate qualcosa.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Non mi è chiaro se in questa vita sto pagando i debiti di quella precedente o sto versando un anticipo per la prossima.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Se la vita comincia a quarant'anni, perché diavolo ci mandano con tanto anticipo?", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "E non sarà che a questo mondo c'è sempre più gente e sempre meno persone?", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Il cuore ha le sue ragioni e il fegato le conosce tutte.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Io sono in forma. Tonda è una forma.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Non è che non ci sia la bontà: c’è, ma in incognito!", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Manganello. Il bastoncino per ammaccare le ideologie.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "I miei sogni sono ribelli, non ci vogliono stare nel cassetto.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Curioso, chiudi gli occhi e il mondo scompare!", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Il dramma di essere capo del governo è che se uno si mette a risolvere problemi di Stato non gli resta il tempo di governare.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "A me il 'filo logico' delle cose ha sempre fatto inciampare.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "A me non disturba questo fatto che siamo tutti uguali, purché non ci vengano a dire che ci rassomigliamo.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Quando ho imparato le risposte, mi cambiano tutte le domande.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Troppe volte l'urgente non lascia tempo per l'importante.", 
-        "author" : "Quino"
-    },
-
-    {
-        "text" : "Perdona sempre i tuoi nemici. Nulla li fa arrabbiare di più.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Il guardare una cosa è ben diverso dal vederla. Non si vede una cosa finché non se ne vede la bellezza.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Ciò che non abbiamo osato, abbiamo certamente perduto.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Il cinismo è l'arte di vedere le cose come sono, non come dovrebbero essere.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Fra uomini e donne non può esserci amicizia. Vi può essere passione, ostilità, adorazione, amore, ma non amicizia.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "La coerenza è l'ultimo rifugio delle persone prive d'immaginazione.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Le donne sono fatte per essere amate, non per essere comprese.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "L'indifferenza è la vendetta che il mondo si prende sui mediocri.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Le follie sono le uniche cose che non si rimpiangono mai.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Al giorno d'oggi, i giovani immaginano che i soldi siano tutto, e quando diventano più vecchi sanno che è così.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Solo le persone superficiali non giudicano dalle apparenze.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Un fondoschiena veramente ben fatto è l'unico legame tra Arte e Natura.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Il pessimista non è nient'altro che un ottimista ben informato.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Chi, sentendosi amato, è povero? Oh, nessuno.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Parlate pure male di me, purché ne parliate.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Alcuni causano la felicità ovunque vadano; altri, ogni volta che se ne vanno.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "La coerenza è degli sciocchi.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Un po' di sincerità è pericolosa, ma molta sincerità è assolutamente fatale.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "La cosa più banale diventa deliziosa appena la si nasconde.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Nulla peggiora le cose quanto la calma.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Non c'è peccato tranne la stupidità.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Posso resistere a tutto tranne che alla tentazione.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Il Cattolicesimo è la sola religione in cui valga la pena morire.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Esperienza è semplicemente il nome che diamo ai nostri errori.", 
-        "author" : "Oscar Wilde"
-    },
-
-    {
-        "text" : "Non possiamo proteggere completamente la gente dalla propria stupidità.", 
-        "author" : "Gunther Oettinger"
-    },
-
-    {
-        "text" : "Se tutti gli imbecilli decidessero di dire tutto quello che pensano... beh, ci sarebbe un silenzio terribile!", 
-        "author" : "Groucho Marx"
-    },
-
-    {
-        "text" : "La seconda cosa più fastidiosa e irritante dopo gli stupidi? I sostenitori degli stupidi.", 
-        "author" : "Francesco Agati"
-    },
-
-    {
-        "text" : "Le cose difficili esigono tempo, quelle impossibili ne esigono di più.", 
-        "author" : "Helenio Herrera"
-    },
-
-    {
-        "text" : "Per sembrare ottimamente improvvisate le cose devono essere perfettamente provate.", 
-        "author" : "Virginia Raffaele"
-    },
-
-    {
-        "text" : " Se i tempi non richiedono la parte migliore di te, inventa altri tempi.", 
-        "author" : "Stefano Benni"
-    },
-
-    {
-        "text" : "Se pensi che un posto sia lontano, parti e pensaci mentre cammini.", 
-        "author" : "Stefano Benni"
-    },
-
-    {
-        "text" : "Quando uno non distingue più i banditi dagli sceriffi vuol dire che è nella merda.", 
-        "author" : "Stefano Benni"
-    },
-
-    {
-        "text" : "Nessun delitto è peggiore di quello del forte contro il debole.", 
-        "author" : "Stefano Benni"
-    },
-
-    {
-        "text" : "Puoi alzarti molto presto all’alba, ma il tuo destino si è alzato un’ora prima di te.", 
-        "author" : "Stefano Benni"
-    },
-
-    {
-        "text" : "Lo sport è uno dei due linguaggi interclassisti interrazziali e internazionali. L'altro è il danaro.", 
-        "author" : "Stefano Benni"
-    },
-
-    {
-        "text" : "Le stelle esistono perché amo, se non amassi scomparirebbero.", 
-        "author" : "Stefano Benni"
-    },
-
-    {
-        "text" : "I computer sono inutili. Ti sanno dare solo risposte.", 
-        "author" : "Pablo Picasso"
-    },
-
-    {
-        "text" : "La Scienza dei Computer non riguarda i computer più di quanto l'astronomia riguardi i telescopi.", 
-        "author" : "Edsger Wybe Dijkstra"
-    },
-
-    {
-        "text" : "La pace richiede quattro condizioni essenziali: verità, giustizia, amore e libertà.", 
-        "author" : "Papa Giovanni Paolo II"
-    },
-
-    {
-        "text" : "Il futuro inizia oggi, non domani.", 
-        "author" : "Papa Giovanni Paolo II"
-    },
-
-    {
-        "text" : "La fiducia bisogna meritarla con gesti e fatti concreti.", 
-        "author" : "Papa Giovanni Paolo II"
-    },
-
-    {
-        "text" : "L'amore cerca sempre la vicinanza di colui che si ama.", 
-        "author" : "Papa Giovanni Paolo II"
-    },
-
-    {
-        "text" : "La verità non è sempre quella che ha deciso la maggioranza.", 
-        "author" : "Papa Giovanni Paolo II"
-    },
-
-    {
-        "text" : "Non c'è pace senza giustizia, non c'è giustizia senza perdono.", 
-        "author" : "Papa Giovanni Paolo II"
-    },
-
-    {
-        "text" : "Non c'è pace senza giustizia, non c'è giustizia senza perdono.", 
-        "author" : "Papa Giovanni Paolo II"
-    },
-
-    {
-        "text" : "Ecco il mio segreto. È molto semplice: si vede solo con il cuore. L'essenziale è invisibile agli occhi.", 
-        "author" : "Antoine de Saint-Exupéry"
-    },
-
-    {
-        "text" : "Scegli una persona che ti guardi come se fosse una magia.", 
-        "author" : "Frida Kahlo"
-    },
-
-    {
-        "text" : "Scegli un lavoro che ami, e non dovrai lavorare neppure un giorno in vita tua.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Se c’è rimedio perché te la prendi? E se non c’è rimedio perché te la prendi?", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Il momento migliore per piantare un albero è vent’anni fa. Il secondo momento migliore è adesso.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Colui che chiede è uno stupido per cinque minuti. Colui che non chiede è uno stolto per sempre.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Il saggio esige il massimo da sé, l’uomo da poco si attende tutto dagli altri.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Meglio tacere e sembrare stupidi che togliere ogni dubbio parlando.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Se incontri uno convinto di sapere tutto e sicuro di saper fare tutto, non ti puoi sbagliare: è un imbecille.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Se ascolto dimentico, se leggo ricordo, se faccio capisco.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Rispetta te stesso e gli altri ti rispetteranno.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Non si può aprire un libro senza imparare qualcosa.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "L’inizio della saggezza consiste nel chiamare le cose con il loro nome.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Chi conosce tutte le risposte, non si è fatto tutte le domande.", 
-        "author" : "Confucio"
-    },
-
-    {
-        "text" : "Se dovessi perderti non mi stancherò di cercarti finché, tra mille volti, non ritroverò il tuo sguardo.", 
-        "author" : "Daniele"
-    },
-
-    {
-        "text" : "La creatività richiede coraggio.", 
-        "author" : "Henri Matisse"
-    },
-
-    {
-        "text" : "Coloro che sognano di giorno sanno molte cose che sfuggono a chi sogna soltanto di notte.", 
-        "author" : "Edgar Allan Poe"
-    },
-
-    {
-        "text" : "Tutta la varietà, tutta la delizia, tutta la bellezza della vita è composta d'ombra e di luce.", 
-        "author" : "Lev Tolstoj"
-    },
-
-    {
-        "text" : "Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiar se stesso.", 
-        "author" : "Lev Tolstoj"
-    },
-    
-    {
-        "text" : "Il tempo per leggere, come il tempo per amare, dilata il tempo per vivere.", 
-        "author" : "Daniel Pennac"
-    },
-
-    {
-        "text" : "Fondare biblioteche è come costruire ancora granai pubblici, ammassare riserve contro un inverno dello spirito [...].", 
-        "author" : "Marguerite Yourcenar"
-    },
-
-    {
-        "text" : "La bellezza non è che una promessa di felicità.", 
-        "author" : "Stendhal"
-    },
-
-    {
-        "text" : "Se non ricordi che amore t’abbia mai fatto commettere la più piccola follia, allora non hai amato.", 
-        "author" : "William Shakespeare"
-    },
-
-    {
-        "text" : "Il saggio sa di essere stupido, è lo stupido invece che crede di essere saggio.", 
-        "author" : "William Shakespeare"
-    },
-
-    {
-        "text" : "Se l'amore è cieco, tanto meglio si accorda con la notte.", 
-        "author" : "William Shakespeare"
-    },
-
-    {
-        "text" : "Se giudichi le persone, non avrai tempo per amarle.", 
-        "author" : "Madre Teresa di Calcutta"
-    },
-
-    {
-        "text" : "Quello che noi facciamo è solo una goccia nell'oceano, ma se non lo facessimo l'oceano avrebbe una goccia in meno.", 
-        "author" : "Madre Teresa di Calcutta"
-    },
-
-    {
-        "text" : "Ho sempre tentato. Ho sempre fallito. Non discutere. Prova ancora. Fallisci ancora. Fallisci meglio.", 
-        "author" : "Samuel Beckett"
-    },
-
-    {
-        "text" : "La vera felicità costa poco; se è cara, non è di buona qualità.", 
-        "author" : "François-René de Chateaubriand"
-    },
-
-    {
-        "text" : "Chi vive senza follia non è poi così saggio come crede.", 
-        "author" : "François-René de Chateaubriand"
-    },
-
-    {
-        "text" : "Sii il cambiamento che vuoi vedere nel mondo.", 
-        "author" : "Mahatma Gandhi"
-    },
-
-    {
-        "text" : "L’unica vera saggezza è sapere di non sapere nulla.", 
-        "author" : "Socrate"
-    },
-
-    {
-        "text" : "Non è da dove vieni. È dove stai andando che conta.", 
-        "author" : "Ella Fitzgerald"
-    },
-
-    {
-        "text" : "I cimiteri sono pieni di persone che pensavano di essere indispensabili.", 
-        "author" : "Georges Clemenceau"
-    },
-
-    {
-        "text" : "Giudica il tuo successo in relazione a ciò a cui hai dovuto rinunciare per ottenerlo.", 
-        "author" : "Dalai Lama"
-    },
-
-    {
-        "text" : "La vita non si spiega, si vive.", 
-        "author" : "Luigi Pirandello"
-    },
-
-    {
-        "text" : "Imparerai a tue spese che nel lungo tragitto della vita incontrerai tante maschere e pochi volti.", 
-        "author" : "Luigi Pirandello"
-    },
-
-    {
-        "text" : "Nulla è più complicato della sincerità.", 
-        "author" : "Luigi Pirandello"
-    },
-
-    {
-        "text" : "La miglior vendetta è un grande successo.", 
-        "author" : "Frank Sinatra"
-    },
-
-    {
-        "text" : "Il paradiso lo preferisco per il clima, l’inferno per la compagnia.", 
-        "author" : "Mark Twain"
-    },
-
-    {
-        "text" : "I due giorni più importanti della vita sono il giorno in cui sei nato e il giorno in cui scopri il perché.", 
-        "author" : "Mark Twain"
-    },
-
-    {
-        "text" : "Se votare facesse qualche differenza non ce lo lascerebbero fare.", 
-        "author" : "Mark Twain"
-    },
-
-    {
-        "text" : "Dai a ogni giornata la possibilità di essere la più bella della tua vita.", 
-        "author" : "Mark Twain"
-    },
-
-    {
-        "text" : "Tra vent’anni non sarete delusi dalle cose che avrete fatto, ma da quelle che non avrete fatto.", 
-        "author" : "Mark Twain"
-    },
-
-    {
-        "text" : "La vita è troppo breve per passarla a vivere il sogno di qualcun altro.", 
-        "author" : "Hugh Hefner"
-    },
-
-    {
-        "text" : "Coloro che sono abbastanza folli da pensare di poter cambiare il mondo di solito lo fanno.", 
-        "author" : "Steve Jobs"
-    },
-
-    {
-        "text" : "Stay hungry, stay foolish.", 
-        "author" : "Steve Jobs"
-    },
-
-    {
-        "text" : "Le cose più belle della vita o sono immorali, o sono illegali, oppure fanno ingrassare.", 
-        "author" : "George Bernard Shaw"
-    },
-
-    {
-        "text" : "Sembra sempre impossibile, finché non viene fatto.", 
-        "author" : "Nelson Mandela"
-    },
-
-    {
-        "text" : "Possano le tue scelte riflettere le tue speranze, non le tue paure.", 
-        "author" : "Nelson Mandela"
-    },
-
-    {
-        "text" : "Se vuoi che qualcosa venga detto, chiedi ad un uomo. Se vuoi che qualcosa venga fatto, chiedi ad una donna.", 
-        "author" : "Margaret Thatcher"
-    },
-
-    {
-        "text" : "Se vuoi qualcosa che non hai mai avuto, devi fare qualcosa che non hai mai fatto.", 
-        "author" : "Thomas Jefferson"
-    },
-
-    {
-        "text" : "Un giorno senza un sorriso è un giorno perso.", 
-        "author" : "Charlie Chaplin"
-    },
-
-    {
-        "text" : "La vita è ciò che ti accade mentre sei occupato a fare altri progetti.", 
-        "author" : "John Lennon"
-    },
-
-    {
-        "text" : "Se non posso fare grandi cose, posso fare piccole cose in un modo fantastico.", 
-        "author" : "Martin Luther King"
-    },
-
-    {
-        "text" : "La mia libertà finisce dove comincia la vostra.", 
-        "author" : "Martin Luther King"
-    },
-
-    {
-        "text" : "Se puoi sognarlo, puoi farlo.", 
-        "author" : "Walt Disney"
-    },
-
-    {
-        "text" : "Chi non ride mai non è una persona seria.", 
-        "author" : "Fryderyk Chopin"
-    },
-
-    {
-        "text" : "Il futuro appartiene a coloro che credono nella bellezza dei propri sogni.", 
-        "author" : "Eleanor Roosevelt"
-    },
-
-    {
-        "text" : "Nessuno può farti sentire inferiore senza il tuo consenso.", 
-        "author" : "Eleanor Roosevelt"
-    },
-
-    {
-        "text" : "Fa ciò che senti giusto nel tuo cuore, poiché verrai criticato comunque.", 
-        "author" : "Eleanor Roosevelt"
-    },
-
-    {
-        "text" : "La vita è come una commedia: non importa quanto è lunga, ma come è recitata.", 
-        "author" : "Lucio Anneo Seneca"
-    },
-
-    {
-        "text" : "L'amore è un'amicizia impazzita.", 
-        "author" : "Lucio Anneo Seneca"
-    },
-
-    {
-        "text" : "Il più sprecato di tutti i giorni è quello senza risate.", 
-        "author" : "Nicolas Chamfort"
-    },
-
-    {
-        "text" : "Ai più importanti bivi della nostra vita non c’è segnaletica.", 
-        "author" : "Ernest Hemingway"
-    },
-
-    {
-        "text" : "La vita è la somma di tutte le tue scelte.", 
-        "author" : "Albert Camus"
-    },
-
-    {
-        "text" : "Una volta presa una decisione, l’universo cospira perché si verifichi.", 
-        "author" : "Ralph Waldo Emerson"
-    },
-
-    {
-        "text" : "Non conosco la domanda, ma il sesso è sicuramente la risposta.", 
-        "author" : "Woody Allen"
-    },
-
-    {
-        "text" : " La differenza tra l'amore e il sesso è che il sesso allevia le tensioni e l'amore le provoca.", 
-        "author" : "Woody Allen"
-    },
-
-    {
-        "text" : "Quando perdiamo il diritto di essere diversi, perdiamo il privilegio di essere liberi.", 
-        "author" : "Charles Evans Hughes"
-    },
-
-    {
-        "text" : "I pregiudizi sono ciò che gli sciocchi usano per ragionare.", 
-        "author" : "Voltaire"
-    },
-
-    {
-        "text" : "L'ingegno è vedere possibilità dove gli altri non ne vedono.", 
-        "author" : "Enrico Mattei"
-    },
-
-    {
-        "text" : "E' la somma che fa il totale.", 
-        "author" : "Totò"
-    },
-
-    {
-        "text" : "I tuoi pensieri sono gli architetti del tuo destino.", 
-        "author" : "David Oman McKay"
-    },
-
-    {
-        "text" : "Non prendete i vostri pensieri troppo sul serio.", 
-        "author" : "Eckhart Tolle"
-    },
-
-    {
-        "text" : "Chi non ha mai commesso un errore non ha mai provato nulla di nuovo.", 
-        "author" : "Albert Einstein"
-    },
-
-    {
-        "text" : "Anche un viaggio di mille miglia inizia con un singolo passo.", 
-        "author" : "Lao Tzu"
-    },
-
-    {
-        "text" : "Chiudi gli occhi e vedrai.", 
-        "author" : "Joseph Joubert"
-    },
-
-    {
-        "text" : "L'occhio non vede se il cuore non vuole.", 
-        "author" : "Giovanni Soriano"
-    },
-
-    {
-        "text" : "A volte ci si sfama anche con gli occhi.", 
-        "author" : "Dacia Maraini"
-    },
-
-    {
-        "text" : "La più diffusa malattia degli occhi è l'amore a prima vista.", 
-        "author" : "Gino Cervi"
-    },
-
-    {
-        "text" : "Gli unici occhi belli sono quelli che vi guardano con tenerezza.", 
-        "author" : "Coco Chanel"
-    },
-
-    {
-        "text" : "Più opinioni hai, e meno hai occhi per vedere.", 
-        "author" : "Wim Wenders"
-    },
-
-    {
-        "text" : "È facile ingannare l'occhio, ma è difficile ingannare il cuore.", 
-        "author" : "Al Pacino"
-    },
-
-    {
-        "text" : "Ma gli innamorati, i veri innamorati inventano con gli occhi la loro verità.", 
-        "author" : "Molière"
-    },
-
-    {
-        "text" : "L'importante non è la fotocamera, ma l'occhio.", 
-        "author" : "Alfred Eisenstaedt"
-    },
-
-    {
-        "text" : "Nessuno arriva in paradiso con gli occhi asciutti.", 
-        "author" : "Thomas Adams"
-    },
-
-    {
-        "text" : "Non tutti coloro che vedono hanno aperto gli occhi, e non tutti coloro che guardano, vedono.", 
-        "author" : "Baltasar Gracian"
-    },
-
-    {
-        "text" : "Quando menti a qualcuno, guardalo dritto negli occhi.", 
-        "author" : "Mason Cooley"
-    },
-
-    {
-        "text" : "Agli occhi di un povero, tutti i governi si equivalgono.", 
-        "author" : "Charles Régismanset"
-    },
-
-    {
-        "text" : "Ci sono cose che possiamo imparare solo quando siamo in mezzo alla tempesta.", 
-        "author" : "Francesco Agati"
-    },
-
-    {
-        "text" : "Evito di guardarmi indietro. Preferisco un buon ricordo ai rimpianti.", 
-        "author" : "Grace Kelly"
-    },
-
-    {
-        "text" : "Dove c'è poca giustizia è un pericolo avere ragione.", 
-        "author" : "Francisco de Quevedo"
-    },
-
-    {
-        "text" : "Nessuno promette tanto come quello che non manterrà.", 
-        "author" : "Francisco de Quevedo"
-    },
-
-    {
-        "text" : "Ripenso il tuo sorriso, ed è per me un'acqua limpida.", 
-        "author" : "Eugenio Montale"
-    },
-
-    {
-        "text" : "Er bacio è er più ber fiore che nasce ner giardino dell'amore.", 
-        "author" : "Trilussa"
-    },
-
-    {
-        "text" : "Spesso una cosa stupida si regge perché viene approvata dalla Legge.", 
-        "author" : "Trilussa"
-    },
-
-    {
-        "text" : "Non è il vestito bello che fa il signore, ma è piuttosto il vestito pulito.", 
-        "author" : "Carlo Collodi"
-    },
-
-    {
-        "text" : "Non ama veramente chi non ama costantemente.", 
-        "author" : "Aristotele"
-    }
+  {
+    "text": "È bene sospettare di tutti, finché non si riesce a dimostrare che sono innocenti.",
+    "author": "Agatha Christie"
+  },
+  {
+    "text": "È facile ingannare l'occhio, ma è difficile ingannare il cuore.",
+    "author": "Al Pacino"
+  },
+  {
+    "text": "La vita è la somma di tutte le tue scelte.",
+    "author": "Albert Camus"
+  },
+  {
+    "text": "Chi non ha mai commesso un errore non ha mai provato nulla di nuovo.",
+    "author": "Albert Einstein"
+  },
+  {
+    "text": "L'importante non è la fotocamera, ma l'occhio.",
+    "author": "Alfred Eisenstaedt"
+  },
+  {
+    "text": "Poi il treno entrò in una galleria e, quando ne riemerse, i pendolari videro che Hiroshima non c’era più.",
+    "author": "Amélie Nothomb"
+  },
+  {
+    "text": "Ecco il mio segreto. È molto semplice: si vede solo con il cuore. L'essenziale è invisibile agli occhi.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
+    "text": "Non ama veramente chi non ama costantemente.",
+    "author": "Aristotele"
+  },
+  {
+    "text": "Non tutti coloro che vedono hanno aperto gli occhi, e non tutti coloro che guardano, vedono.",
+    "author": "Baltasar Gracian"
+  },
+  {
+    "text": "Non è il vestito bello che fa il signore, ma è piuttosto il vestito pulito.",
+    "author": "Carlo Collodi"
+  },
+  {
+    "text": "Poche cose impressionano davvero un lettore quanto il primo libro capace di toccargli davvero il cuore.",
+    "author": "Carlos Ruiz Zafòn"
+  },
+  {
+    "text": "Volevo ricordarti che l’amore è rimanere e non sparire per vedere se uno poi ci tiene.",
+    "author": "Charles Bukowski"
+  },
+  {
+    "text": "Le sorprese, come le sfortune, raramente vengono da sole.",
+    "author": "Charles Dickens"
+  },
+  {
+    "text": "Quando perdiamo il diritto di essere diversi, perdiamo il privilegio di essere liberi.",
+    "author": "Charles Evans Hughes"
+  },
+  {
+    "text": "Agli occhi di un povero, tutti i governi si equivalgono.",
+    "author": "Charles Régismanset"
+  },
+  {
+    "text": "Un giorno senza un sorriso è un giorno perso.",
+    "author": "Charlie Chaplin"
+  },
+  {
+    "text": "Gli unici occhi belli sono quelli che vi guardano con tenerezza.",
+    "author": "Coco Chanel"
+  },
+  {
+    "text": "Scegli un lavoro che ami, e non dovrai lavorare neppure un giorno in vita tua.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Se c’è rimedio perché te la prendi? E se non c’è rimedio perché te la prendi?",
+    "author": "Confucio"
+  },
+  {
+    "text": "Il momento migliore per piantare un albero è vent’anni fa. Il secondo momento migliore è adesso.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Colui che chiede è uno stupido per cinque minuti. Colui che non chiede è uno stolto per sempre.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Il saggio esige il massimo da sé, l’uomo da poco si attende tutto dagli altri.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Meglio tacere e sembrare stupidi che togliere ogni dubbio parlando.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Se incontri uno convinto di sapere tutto e sicuro di saper fare tutto, non ti puoi sbagliare: è un imbecille.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Se ascolto dimentico, se leggo ricordo, se faccio capisco.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Rispetta te stesso e gli altri ti rispetteranno.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Non si può aprire un libro senza imparare qualcosa.",
+    "author": "Confucio"
+  },
+  {
+    "text": "L’inizio della saggezza consiste nel chiamare le cose con il loro nome.",
+    "author": "Confucio"
+  },
+  {
+    "text": "Chi conosce tutte le risposte, non si è fatto tutte le domande.",
+    "author": "Confucio"
+  },
+  {
+    "text": "A volte ci si sfama anche con gli occhi.",
+    "author": "Dacia Maraini"
+  },
+  {
+    "text": "Giudica il tuo successo in relazione a ciò a cui hai dovuto rinunciare per ottenerlo.",
+    "author": "Dalai Lama"
+  },
+  {
+    "text": "Il tempo per leggere, come il tempo per amare, dilata il tempo per vivere.",
+    "author": "Daniel Pennac"
+  },
+  {
+    "text": "Se dovessi perderti non mi stancherò di cercarti finché, tra mille volti, non ritroverò il tuo sguardo.",
+    "author": "Daniele"
+  },
+  {
+    "text": "Io non lo so come sto, non ci voglio pensare. Certe volte è meglio non saperlo, come stiamo.",
+    "author": "Daria Bignardi"
+  },
+  {
+    "text": "La vostra preoccupazione per ciò che gli altri pensano di voi scompare una volta che capite quanto di rado pensano a voi.",
+    "author": "David Foster Wallace"
+  },
+  {
+    "text": "I tuoi pensieri sono gli architetti del tuo destino.",
+    "author": "David Oman McKay"
+  },
+  {
+    "text": "Alla gente non piace parlare ma, sicuramente, piace essere ascoltata.",
+    "author": "Donato Carrisi"
+  },
+  {
+    "text": "Non prendete i vostri pensieri troppo sul serio.",
+    "author": "Eckhart Tolle"
+  },
+  {
+    "text": "Coloro che sognano di giorno sanno molte cose che sfuggono a chi sogna soltanto di notte.",
+    "author": "Edgar Allan Poe"
+  },
+  {
+    "text": "La Scienza dei Computer non riguarda i computer più di quanto l'astronomia riguardi i telescopi.",
+    "author": "Edsger Wybe Dijkstra"
+  },
+  {
+    "text": "Il futuro appartiene a coloro che credono nella bellezza dei propri sogni.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "text": "Nessuno può farti sentire inferiore senza il tuo consenso.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "text": "Fa ciò che senti giusto nel tuo cuore, poiché verrai criticato comunque.",
+    "author": "Eleanor Roosevelt"
+  },
+  {
+    "text": "Ognuno si racconta la vita come gli fa comodo.",
+    "author": "Elena Ferrante"
+  },
+  {
+    "text": "Non è da dove vieni. È dove stai andando che conta.",
+    "author": "Ella Fitzgerald"
+  },
+  {
+    "text": "L’amore vero è così: non ha nessuno scopo e nessuna ragione, e non si sottomette a nessun potere fuorché alla grazia umana.",
+    "author": "Elsa Morante"
+  },
+  {
+    "text": "L'ingegno è vedere possibilità dove gli altri non ne vedono.",
+    "author": "Enrico Mattei"
+  },
+  {
+    "text": "Ai più importanti bivi della nostra vita non c’è segnaletica.",
+    "author": "Ernest Hemingway"
+  },
+  {
+    "text": "Ripenso il tuo sorriso, ed è per me un'acqua limpida.",
+    "author": "Eugenio Montale"
+  },
+  {
+    "text": "Paura e desiderio: non è forse questo l’amore?",
+    "author": "Francesca Diotallevi"
+  },
+  {
+    "text": "La seconda cosa più fastidiosa e irritante dopo gli stupidi? I sostenitori degli stupidi.",
+    "author": "Francesco Agati"
+  },
+  {
+    "text": "Ci sono cose che possiamo imparare solo quando siamo in mezzo alla tempesta.",
+    "author": "Francesco Agati"
+  },
+  {
+    "text": "Dove c'è poca giustizia è un pericolo avere ragione.",
+    "author": "Francisco de Quevedo"
+  },
+  {
+    "text": "Nessuno promette tanto come quello che non manterrà.",
+    "author": "Francisco de Quevedo"
+  },
+  {
+    "text": "La miglior vendetta è un grande successo.",
+    "author": "Frank Sinatra"
+  },
+  {
+    "text": "La vera felicità costa poco; se è cara, non è di buona qualità.",
+    "author": "François-René de Chateaubriand"
+  },
+  {
+    "text": "Chi vive senza follia non è poi così saggio come crede.",
+    "author": "François-René de Chateaubriand"
+  },
+  {
+    "text": "Scegli una persona che ti guardi come se fosse una magia.",
+    "author": "Frida Kahlo"
+  },
+  {
+    "text": "Chi non ride mai non è una persona seria.",
+    "author": "Fryderyk Chopin"
+  },
+  {
+    "text": "Non piangere perché è finito, sorridi perché è successo.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Nessuna persona merita le tue lacrime, e chi le merita sicuramente non ti farà piangere.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Un vero amico è chi ti prende per la mano e ti tocca il cuore... sempre.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Il fatto che una persona non ti ami come tu vorresti non vuol dire che non ti ami con tutta se stessa.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "E' la vita, più che la morte, a non avere limiti.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Non c’è medicina che guarisca quello che non guarisce la felicità.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Nulla di quanto si fa a letto è immorale se contribuisce a perpetuare l’amore.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "L’unica cosa peggiore della cattiva salute è la cattiva fama.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Nessun posto nella vita è più triste di un letto vuoto.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Non passare il tempo con qualcuno che non sia disposto a passarlo con te.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "È impossibile non finire per essere come gli altri credono che uno sia.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Un bravo scrittore non si riconosce tanto da quello che pubblica quanto da quello che butta nel cestino della carta.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "La vita non è quella che si è vissuta, ma quella che si ricorda e come la si ricorda per raccontarla.",
+    "author": "Gabriel García Márquez"
+  },
+  {
+    "text": "Ci sono certi sguardi di donna che l’uomo amante non iscambierebbe con l’intero possesso del corpo di lei.",
+    "author": "Gabriele D'Annunzio"
+  },
+  {
+    "text": "Le cose più belle della vita o sono immorali, o sono illegali, oppure fanno ingrassare.",
+    "author": "George Bernard Shaw"
+  },
+  {
+    "text": "I cimiteri sono pieni di persone che pensavano di essere indispensabili.",
+    "author": "Georges Clemenceau"
+  },
+  {
+    "text": "Non esiste saggezza.",
+    "author": "Gianrico Carofiglio"
+  },
+  {
+    "text": "La più diffusa malattia degli occhi è l'amore a prima vista.",
+    "author": "Gino Cervi"
+  },
+  {
+    "text": "L'occhio non vede se il cuore non vuole.",
+    "author": "Giovanni Soriano"
+  },
+  {
+    "text": "Evito di guardarmi indietro. Preferisco un buon ricordo ai rimpianti.",
+    "author": "Grace Kelly"
+  },
+  {
+    "text": "Se tutti gli imbecilli decidessero di dire tutto quello che pensano... beh, ci sarebbe un silenzio terribile!",
+    "author": "Groucho Marx"
+  },
+  {
+    "text": "Non possiamo proteggere completamente la gente dalla propria stupidità.",
+    "author": "Gunther Oettinger"
+  },
+  {
+    "text": "Fino al giorno in cui mi minacciarono di non lasciarmi più leggere, non seppi di amare la lettura [...]",
+    "author": "Harper Lee"
+  },
+  {
+    "text": "Il momento in cui i tuoi amici hanno bisogno di te è quando hanno torto. Non hanno bisogno di te quando hanno ragione.",
+    "author": "Harper Lee"
+  },
+  {
+    "text": "Le cose difficili esigono tempo, quelle impossibili ne esigono di più.",
+    "author": "Helenio Herrera"
+  },
+  {
+    "text": "La creatività richiede coraggio.",
+    "author": "Henri Matisse"
+  },
+  {
+    "text": "Io non conosco tutto quello che sarà, ma qualunque cosa sia, vi andrò incontro ridendo.",
+    "author": "Herman Melville"
+  },
+  {
+    "text": "La vita è troppo breve per passarla a vivere il sogno di qualcun altro.",
+    "author": "Hugh Hefner"
+  },
+  {
+    "text": "La violenza è l'ultimo rifugio degli incapaci.",
+    "author": "Isaac Asimov"
+  },
+  {
+    "text": "Scrivere è sempre nascondere qualcosa in modo che venga poi scoperto.",
+    "author": "Italo Calvino"
+  },
+  {
+    "text": "La solitudine è ascoltare il vento e non poterlo raccontare a nessuno.",
+    "author": "Jim Morrison"
+  },
+  {
+    "text": "La vita è ciò che ti accade mentre sei occupato a fare altri progetti.",
+    "author": "John Lennon"
+  },
+  {
+    "text": "Chiudi gli occhi e vedrai.",
+    "author": "Joseph Joubert"
+  },
+  {
+    "text": "Avere fede in Dio non significava restare inerti: significava credere nella possibilità di avere successo se si faceva del proprio meglio onestamente e con impegno.",
+    "author": "Ken Follett"
+  },
+  {
+    "text": "Anche un viaggio di mille miglia inizia con un singolo passo.",
+    "author": "Lao Tzu"
+  },
+  {
+    "text": "Tutta la varietà, tutta la delizia, tutta la bellezza della vita è composta d'ombra e di luce.",
+    "author": "Lev Tolstoj"
+  },
+  {
+    "text": "Tutti pensano a cambiare il mondo, ma nessuno pensa a cambiar se stesso.",
+    "author": "Lev Tolstoj"
+  },
+  {
+    "text": "La vita è come una commedia: non importa quanto è lunga, ma come è recitata.",
+    "author": "Lucio Anneo Seneca"
+  },
+  {
+    "text": "L'amore è un'amicizia impazzita.",
+    "author": "Lucio Anneo Seneca"
+  },
+  {
+    "text": "La vita non si spiega, si vive.",
+    "author": "Luigi Pirandello"
+  },
+  {
+    "text": "Imparerai a tue spese che nel lungo tragitto della vita incontrerai tante maschere e pochi volti.",
+    "author": "Luigi Pirandello"
+  },
+  {
+    "text": "Nulla è più complicato della sincerità.",
+    "author": "Luigi Pirandello"
+  },
+  {
+    "text": "I veri amici condividono anche il silenzio.",
+    "author": "Luis Sepulveda"
+  },
+  {
+    "text": "Se giudichi le persone, non avrai tempo per amarle.",
+    "author": "Madre Teresa di Calcutta"
+  },
+  {
+    "text": "Quello che noi facciamo è solo una goccia nell'oceano, ma se non lo facessimo l'oceano avrebbe una goccia in meno.",
+    "author": "Madre Teresa di Calcutta"
+  },
+  {
+    "text": "Sii il cambiamento che vuoi vedere nel mondo.",
+    "author": "Mahatma Gandhi"
+  },
+  {
+    "text": "Se vuoi che qualcosa venga detto, chiedi ad un uomo. Se vuoi che qualcosa venga fatto, chiedi ad una donna.",
+    "author": "Margaret Thatcher"
+  },
+  {
+    "text": "Fondare biblioteche è come costruire ancora granai pubblici, ammassare riserve contro un inverno dello spirito [...].",
+    "author": "Marguerite Yourcenar"
+  },
+  {
+    "text": "Il paradiso lo preferisco per il clima, l’inferno per la compagnia.",
+    "author": "Mark Twain"
+  },
+  {
+    "text": "I due giorni più importanti della vita sono il giorno in cui sei nato e il giorno in cui scopri il perché.",
+    "author": "Mark Twain"
+  },
+  {
+    "text": "Se votare facesse qualche differenza non ce lo lascerebbero fare.",
+    "author": "Mark Twain"
+  },
+  {
+    "text": "Dai a ogni giornata la possibilità di essere la più bella della tua vita.",
+    "author": "Mark Twain"
+  },
+  {
+    "text": "Tra vent’anni non sarete delusi dalle cose che avrete fatto, ma da quelle che non avrete fatto.",
+    "author": "Mark Twain"
+  },
+  {
+    "text": "Se non posso fare grandi cose, posso fare piccole cose in un modo fantastico.",
+    "author": "Martin Luther King"
+  },
+  {
+    "text": "La mia libertà finisce dove comincia la vostra.",
+    "author": "Martin Luther King"
+  },
+  {
+    "text": "Quando menti a qualcuno, guardalo dritto negli occhi.",
+    "author": "Mason Cooley"
+  },
+  {
+    "text": "Ma gli innamorati, i veri innamorati inventano con gli occhi la loro verità.",
+    "author": "Molière"
+  },
+  {
+    "text": "Sembra sempre impossibile, finché non viene fatto.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "text": "Possano le tue scelte riflettere le tue speranze, non le tue paure.",
+    "author": "Nelson Mandela"
+  },
+  {
+    "text": "Ognuno vede quel che tu pari, pochi sentono quel che tu sei.",
+    "author": "Niccolò Machiavelli"
+  },
+  {
+    "text": "Il più sprecato di tutti i giorni è quello senza risate.",
+    "author": "Nicolas Chamfort"
+  },
+  {
+    "text": "Perdona sempre i tuoi nemici. Nulla li fa arrabbiare di più.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Il guardare una cosa è ben diverso dal vederla. Non si vede una cosa finché non se ne vede la bellezza.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Ciò che non abbiamo osato, abbiamo certamente perduto.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Il cinismo è l'arte di vedere le cose come sono, non come dovrebbero essere.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Fra uomini e donne non può esserci amicizia. Vi può essere passione, ostilità, adorazione, amore, ma non amicizia.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "La coerenza è l'ultimo rifugio delle persone prive d'immaginazione.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Le donne sono fatte per essere amate, non per essere comprese.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "L'indifferenza è la vendetta che il mondo si prende sui mediocri.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Le follie sono le uniche cose che non si rimpiangono mai.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Al giorno d'oggi, i giovani immaginano che i soldi siano tutto, e quando diventano più vecchi sanno che è così.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Solo le persone superficiali non giudicano dalle apparenze.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Un fondoschiena veramente ben fatto è l'unico legame tra Arte e Natura.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Il pessimista non è nient'altro che un ottimista ben informato.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Chi, sentendosi amato, è povero? Oh, nessuno.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Parlate pure male di me, purché ne parliate.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Alcuni causano la felicità ovunque vadano; altri, ogni volta che se ne vanno.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "La coerenza è degli sciocchi.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Un po' di sincerità è pericolosa, ma molta sincerità è assolutamente fatale.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "La cosa più banale diventa deliziosa appena la si nasconde.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Nulla peggiora le cose quanto la calma.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Non c'è peccato tranne la stupidità.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Posso resistere a tutto tranne che alla tentazione.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Il Cattolicesimo è la sola religione in cui valga la pena morire.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "Esperienza è semplicemente il nome che diamo ai nostri errori.",
+    "author": "Oscar Wilde"
+  },
+  {
+    "text": "I computer sono inutili. Ti sanno dare solo risposte.",
+    "author": "Pablo Picasso"
+  },
+  {
+    "text": "La pace richiede quattro condizioni essenziali: verità, giustizia, amore e libertà.",
+    "author": "Papa Giovanni Paolo II"
+  },
+  {
+    "text": "Il futuro inizia oggi, non domani.",
+    "author": "Papa Giovanni Paolo II"
+  },
+  {
+    "text": "La fiducia bisogna meritarla con gesti e fatti concreti.",
+    "author": "Papa Giovanni Paolo II"
+  },
+  {
+    "text": "L'amore cerca sempre la vicinanza di colui che si ama.",
+    "author": "Papa Giovanni Paolo II"
+  },
+  {
+    "text": "La verità non è sempre quella che ha deciso la maggioranza.",
+    "author": "Papa Giovanni Paolo II"
+  },
+  {
+    "text": "Non c'è pace senza giustizia, non c'è giustizia senza perdono.",
+    "author": "Papa Giovanni Paolo II"
+  },
+  {
+    "text": "Non c'è pace senza giustizia, non c'è giustizia senza perdono.",
+    "author": "Papa Giovanni Paolo II"
+  },
+  {
+    "text": "L’amore non è grande né piccolo, è soltanto amore.",
+    "author": "Paulo Coelho"
+  },
+  {
+    "text": "Con il fascino potete cavarvela per un quarto d'ora. Poi è meglio che sappiate qualcosa.",
+    "author": "Quino"
+  },
+  {
+    "text": "Non mi è chiaro se in questa vita sto pagando i debiti di quella precedente o sto versando un anticipo per la prossima.",
+    "author": "Quino"
+  },
+  {
+    "text": "Se la vita comincia a quarant'anni, perché diavolo ci mandano con tanto anticipo?",
+    "author": "Quino"
+  },
+  {
+    "text": "E non sarà che a questo mondo c'è sempre più gente e sempre meno persone?",
+    "author": "Quino"
+  },
+  {
+    "text": "Il cuore ha le sue ragioni e il fegato le conosce tutte.",
+    "author": "Quino"
+  },
+  {
+    "text": "Io sono in forma. Tonda è una forma.",
+    "author": "Quino"
+  },
+  {
+    "text": "Non è che non ci sia la bontà: c’è, ma in incognito!",
+    "author": "Quino"
+  },
+  {
+    "text": "Manganello. Il bastoncino per ammaccare le ideologie.",
+    "author": "Quino"
+  },
+  {
+    "text": "I miei sogni sono ribelli, non ci vogliono stare nel cassetto.",
+    "author": "Quino"
+  },
+  {
+    "text": "Curioso, chiudi gli occhi e il mondo scompare!",
+    "author": "Quino"
+  },
+  {
+    "text": "Il dramma di essere capo del governo è che se uno si mette a risolvere problemi di Stato non gli resta il tempo di governare.",
+    "author": "Quino"
+  },
+  {
+    "text": "A me il 'filo logico' delle cose ha sempre fatto inciampare.",
+    "author": "Quino"
+  },
+  {
+    "text": "A me non disturba questo fatto che siamo tutti uguali, purché non ci vengano a dire che ci rassomigliamo.",
+    "author": "Quino"
+  },
+  {
+    "text": "Quando ho imparato le risposte, mi cambiano tutte le domande.",
+    "author": "Quino"
+  },
+  {
+    "text": "Troppe volte l'urgente non lascia tempo per l'importante.",
+    "author": "Quino"
+  },
+  {
+    "text": "Una volta presa una decisione, l’universo cospira perché si verifichi.",
+    "author": "Ralph Waldo Emerson"
+  },
+  {
+    "text": "Gli eventi che ci tiriamo addosso, per sgradevoli che siano, sono necessari al fine di apprendere quello che imparare dobbiamo.",
+    "author": "Richard Bach"
+  },
+  {
+    "text": "Ho sempre tentato. Ho sempre fallito. Non discutere. Prova ancora. Fallisci ancora. Fallisci meglio.",
+    "author": "Samuel Beckett"
+  },
+  {
+    "text": "La mediocrità non riconosce nulla che le sia superiore; ma il talento riconosce istantaneamente il genio.",
+    "author": "Sir Arthur Conan Doyle"
+  },
+  {
+    "text": "L’unica vera saggezza è sapere di non sapere nulla.",
+    "author": "Socrate"
+  },
+  {
+    "text": " Se i tempi non richiedono la parte migliore di te, inventa altri tempi.",
+    "author": "Stefano Benni"
+  },
+  {
+    "text": "Se pensi che un posto sia lontano, parti e pensaci mentre cammini.",
+    "author": "Stefano Benni"
+  },
+  {
+    "text": "Quando uno non distingue più i banditi dagli sceriffi vuol dire che è nella merda.",
+    "author": "Stefano Benni"
+  },
+  {
+    "text": "Nessun delitto è peggiore di quello del forte contro il debole.",
+    "author": "Stefano Benni"
+  },
+  {
+    "text": "Puoi alzarti molto presto all’alba, ma il tuo destino si è alzato un’ora prima di te.",
+    "author": "Stefano Benni"
+  },
+  {
+    "text": "Lo sport è uno dei due linguaggi interclassisti interrazziali e internazionali. L'altro è il danaro.",
+    "author": "Stefano Benni"
+  },
+  {
+    "text": "Le stelle esistono perché amo, se non amassi scomparirebbero.",
+    "author": "Stefano Benni"
+  },
+  {
+    "text": "La bellezza non è che una promessa di felicità.",
+    "author": "Stendhal"
+  },
+  {
+    "text": "La gente non migliora, diventa solo più furba.",
+    "author": "Stephen King"
+  },
+  {
+    "text": "Coloro che sono abbastanza folli da pensare di poter cambiare il mondo di solito lo fanno.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "Stay hungry, stay foolish.",
+    "author": "Steve Jobs"
+  },
+  {
+    "text": "I libri servono a capire e a capirsi, e a creare un universo comune anche in persone lontanissime.",
+    "author": "Susanna Tamaro"
+  },
+  {
+    "text": "Nessuno arriva in paradiso con gli occhi asciutti.",
+    "author": "Thomas Adams"
+  },
+  {
+    "text": "Se vuoi qualcosa che non hai mai avuto, devi fare qualcosa che non hai mai fatto.",
+    "author": "Thomas Jefferson"
+  },
+  {
+    "text": "E' la somma che fa il totale.",
+    "author": "Totò"
+  },
+  {
+    "text": "Er bacio è er più ber fiore che nasce ner giardino dell'amore.",
+    "author": "Trilussa"
+  },
+  {
+    "text": "Spesso una cosa stupida si regge perché viene approvata dalla Legge.",
+    "author": "Trilussa"
+  },
+  {
+    "text": "Noi viviamo per i libri. Dolce missione in questo mondo dominato dal disordine e dalla decadenza.",
+    "author": "Umberto Eco"
+  },
+  {
+    "text": "Per sembrare ottimamente improvvisate le cose devono essere perfettamente provate.",
+    "author": "Virginia Raffaele"
+  },
+  {
+    "text": "I pregiudizi sono ciò che gli sciocchi usano per ragionare.",
+    "author": "Voltaire"
+  },
+  {
+    "text": "Se puoi sognarlo, puoi farlo.",
+    "author": "Walt Disney"
+  },
+  {
+    "text": "Ama tutti, credi a pochi e non far del male a nessuno.",
+    "author": "William Shakespeare"
+  },
+  {
+    "text": "Se non ricordi che amore t’abbia mai fatto commettere la più piccola follia, allora non hai amato.",
+    "author": "William Shakespeare"
+  },
+  {
+    "text": "Il saggio sa di essere stupido, è lo stupido invece che crede di essere saggio.",
+    "author": "William Shakespeare"
+  },
+  {
+    "text": "Se l'amore è cieco, tanto meglio si accorda con la notte.",
+    "author": "William Shakespeare"
+  },
+  {
+    "text": "Più opinioni hai, e meno hai occhi per vedere.",
+    "author": "Wim Wenders"
+  },
+  {
+    "text": "Non conosco la domanda, ma il sesso è sicuramente la risposta.",
+    "author": "Woody Allen"
+  },
+  {
+    "text": " La differenza tra l'amore e il sesso è che il sesso allevia le tensioni e l'amore le provoca.",
+    "author": "Woody Allen"
+  }
 ]
