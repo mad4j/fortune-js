@@ -3,7 +3,7 @@
 const FREQ = 1000*60*60*24;
 
 
-//register event
+//register events
 window.addEventListener('load', e => {
 
     //register ServiceWorkder to support offline content
@@ -12,6 +12,14 @@ window.addEventListener('load', e => {
     //load quote database and trigger UI update
     loadQuoteDatabase('./quotes.json')
         .then(q => updateQuote(q));
+});
+
+window.addEventListener('onmousedown', e => {
+  console.log("down");
+});
+
+window.addEventListener('onmouseup', e => {
+  console.log("up");
 });
 
 
