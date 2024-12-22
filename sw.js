@@ -31,11 +31,11 @@ async function networkFirst(req) {
     const cache = await caches.open(cacheName);
     try {
         const fresh = await fetch(req);
-        cache.put(req, fresh.clone());
+        cache.put(req, fresh);
         return fresh;
     } catch (e) {
         const cachedResponse = await cache.match(req);
-        return cachedResponse;
+        return cachedResponse || new Response('Fallback content', { status: 200, statusText: 'OK' });
     }
 }
 
