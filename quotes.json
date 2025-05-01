@@ -40,8 +40,16 @@
     "author": "Antoine de Saint-Exupéry"
   },
   {
+    "text": "Fate in modo che i vostri sogni divorino la vostra vit, così che la vita non divori i vostri sogni.",
+    "author": "Antoine de Saint-Exupéry"
+  },
+  {
     "text": "Non ama veramente chi non ama costantemente.",
     "author": "Aristotele"
+  },
+  {
+    "text": "Chi è amico di tutti non è amico di nessuno.",
+    "author": "Arthur Schopenhauer"
   },
   {
     "text": "Non tutti coloro che vedono hanno aperto gli occhi, e non tutti coloro che guardano, vedono.",
@@ -82,6 +90,10 @@
   {
     "text": "Un giorno senza un sorriso è un giorno perso.",
     "author": "Charlie Chaplin"
+  },
+  {
+    "text": "Le vere amicizie sono eterne.",
+    "author": "Cicerone"
   },
   {
     "text": "Gli unici occhi belli sono quelli che vi guardano con tenerezza.",
@@ -186,6 +198,10 @@
   {
     "text": "Essere superstiziosi è da ignoranti, ma non esserlo porta male.",
     "author": "Eduardo De Filippo"
+  },
+  {
+    "text": "L'amico sa tutto di te, eppure gli piaci.",
+    "author": "Elbert Hubbard"
   },
   {
     "text": "Il futuro appartiene a coloro che credono nella bellezza dei propri sogni.",
@@ -296,8 +312,16 @@
     "author": "Frida Kahlo"
   },
   {
+    "text": "Nell'amore c'è sempre un po' di follia, ma nella follia c'è sempre un po' di saggezza.",
+    "author": "Friedrich Nietzsche"
+  },
+  {
     "text": "Chi non ride mai non è una persona seria.",
     "author": "Fryderyk Chopin"
+  },
+  {
+    "text": "Amare è mettere la nostra felicità nella felicità di un altro.",
+    "author": "G. W. von Leibniz"
   },
   {
     "text": "Non piangere perché è finito, sorridi perché è successo.",
@@ -364,6 +388,10 @@
     "author": "George Bernard Shaw"
   },
   {
+    "text": "La vita non è trovare noi se stessi, la vita è creare se stessi.",
+    "author": "George Bernard Shaw"
+  },
+  {
     "text": "Non è tanto restare vivi, quanto restare umani che è importante.",
     "author": "George Orwell"
   },
@@ -373,6 +401,10 @@
   },
   {
     "text": "Chi ha il coraggio di ridere, è padrone degli altri, come chi ha il coraggio di morire.",
+    "author": "Giacomo Leopardi"
+  },
+  {
+    "text": "Chi sa ridere è padrone del mondo.",
     "author": "Giacomo Leopardi"
   },
   {
@@ -404,6 +436,10 @@
     "author": "Gunther Oettinger"
   },
   {
+    "text": "Sono le persone che incontriamo a rendere la vita degna di essere vissuta.",
+    "author": "Guy de Maupassant"
+  },
+  {
     "text": "Fino al giorno in cui mi minacciarono di non lasciarmi più leggere, non seppi di amare la lettura [...]",
     "author": "Harper Lee"
   },
@@ -418,6 +454,10 @@
   {
     "text": "La creatività richiede coraggio.",
     "author": "Henri Matisse"
+  },
+  {
+    "text": "Quando tutto sembra essere contro, ricorda che l'aereo decolla contro vento.",
+    "author": "Henry Ford"
   },
   {
     "text": "Io non conosco tutto quello che sarà, ma qualunque cosa sia, vi andrò incontro ridendo.",
@@ -476,6 +516,10 @@
     "author": "Lev Tolstoj"
   },
   {
+    "text": "Il segreto della felicità non è di fare ciò che si vuole, ma di voler sempre ciò che si fa.",
+    "author": "Lev Tolstoj"
+  },
+  {
     "text": "Per quanto tempo è per sempre? A volte, solo un secondo.",
     "author": "Lewis Carrol"
   },
@@ -490,6 +534,10 @@
   {
     "text": "È sempre l’ora del tè, e negli intervalli non abbiamo il tempo di lavare le tazze.",
     "author": "Lewis Carrol"
+  },
+  {
+    "text": "Ridi sempre quando ti è possibile.",
+    "author": "Lord Byron"
   },
   {
     "text": "Ci sono mille modi per dirti ti amo, ma uno solo per dirti fanculo.",
@@ -800,6 +848,10 @@
     "author": "Paulo Coelho"
   },
   {
+    "text": "Tutti i tuoi baci per me saranno sempre pochi.",
+    "author": "Properzio"
+  },
+  {
     "text": "Con il fascino potete cavarvela per un quarto d'ora. Poi è meglio che sappiate qualcosa.",
     "author": "Quino"
   },
@@ -866,6 +918,10 @@
   {
     "text": "Gli eventi che ci tiriamo addosso, per sgradevoli che siano, sono necessari al fine di apprendere quello che imparare dobbiamo.",
     "author": "Richard Bach"
+  },
+  {
+    "text": "Un amico è un dono che ci facciamo noi stessi.",
+    "author": "Robert Louis Stevenson"
   },
   {
     "text": "Non avere paura della perfezione – non lo raggiungerai mai.",
@@ -1016,6 +1072,14 @@
     "author": "William Shakespeare"
   },
   {
+    "text": "Dubita che le stelle siano fuoco... ma non dubitare del mio amore.",
+    "author": "William Shakespeare"
+  },
+  {
+    "text": "Dolce è l'alba che illumina gli amanti.",
+    "author": "William Shakespeare"
+  },
+  {
     "text": "Più opinioni hai, e meno hai occhi per vedere.",
     "author": "Wim Wenders"
   },
@@ -1024,7 +1088,7 @@
     "author": "Woody Allen"
   },
   {
-    "text": " La differenza tra l'amore e il sesso è che il sesso allevia le tensioni e l'amore le provoca.",
+    "text": "La differenza tra l'amore e il sesso è che il sesso allevia le tensioni e l'amore le provoca.",
     "author": "Woody Allen"
   }
 ]
