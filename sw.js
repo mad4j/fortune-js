@@ -48,6 +48,7 @@ async function networkFirst(req) {
     const cache = await caches.open(cacheName);
     try {
         const fresh = await fetch(req);
+        console.log(`[FORTUNE-JS] Fetching: ${req.url}`);
         if (fresh.ok && req.url.startsWith('http')) { // Only cache HTTP/HTTPS requests
             cache.put(req, fresh.clone());
         }
