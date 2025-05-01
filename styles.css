@@ -1,24 +1,38 @@
-html {
-    height: 100%;
+/* Variabili CSS per colori e dimensioni */
+:root {
+    --background-color: #FFFFFF;
+    --text-color: #000000;
+    --font-family: 'Anton', sans-serif;
+    --font-size-body: 6vw;
+    --font-size-author: 5vw;
+    --font-size-signature: 3vw;
+    --opacity-watermark: 0.4;
+}
+
+/* Impostazioni globali */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
     position: fixed;
-    height: 100%;
     width: 100%;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #FFFFFF;
-    font-family: 'Anton', sans-serif;
-    font-size: 6vw;
-    color: #000000;
+    background: var(--background-color);
+    font-family: var(--font-family);
+    font-size: var(--font-size-body);
+    color: var(--text-color);
 }
 
+/* Stile per il contenuto */
 #quote {
     text-align: center;
     padding: 2vh;
@@ -26,23 +40,25 @@ body {
 
 #author {
     text-align: right;
-    font-size: 5vw;
+    font-size: var(--font-size-author);
     padding-top: 2vh;
 }
 
+/* Stile per la filigrana */
 .watermark {
     position: absolute;
     top: 0;
     left: 0;
     width: 25%;
     padding: 1vh;
-    opacity: 0.4;
+    opacity: var(--opacity-watermark);
     z-index: -1;
 }
 
+/* Stile per la firma */
 .signature {
     position: absolute;
     bottom: 0;
-    font-size: 3vw;
+    font-size: var(--font-size-signature);
     padding: 2vw;
 }

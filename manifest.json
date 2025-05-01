@@ -1,16 +1,19 @@
 {
   "name": "Fortune",
   "short_name": "Fortune",
-  "description": "A javascript fortune teller",
+  "description": "A JavaScript fortune teller application",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#ffffff",
+  "orientation": "portrait",
+  "lang": "en",
   "icons": [
     {
       "src": "./watermark-512x512.png",
       "sizes": "512x512",
-      "type": "image/png"
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }

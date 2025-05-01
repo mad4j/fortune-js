@@ -1,64 +1,71 @@
+// Frequenza di aggiornamento in millisecondi
+const FREQ = 1000 * 60 * 60 * 24;
 
-//frequency of update in millis
-const FREQ = 1000*60*60*24;
+// Registra eventi
+window.addEventListener('load', async () => {
+  try {
+    // Registra il Service Worker per supportare contenuti offline
+    await registerServiceWorker();
 
-
-//register events
-window.addEventListener('load', e => {
-
-    //register ServiceWorkder to support offline content
-    registerServiceWorker();
-
-    //load quote database and trigger UI update
-    loadQuoteDatabase('./quotes.json')
-        .then(q => updateQuote(q));
+    // Carica il database delle citazioni e aggiorna l'interfaccia utente
+    const quotes = await loadQuoteDatabase('./quotes.json');
+    updateQuote(quotes);
+  } catch (error) {
+    console.error('[FORTUNE-JS] Errore durante l\'inizializzazione:', error);
+  }
 });
 
-
-//load quote database
+// Carica il database delle citazioni
 async function loadQuoteDatabase(url) {
-
-    //fetch provided URL 
-    const q = await fetch(url);
-
-    //and return promised content as JSON string
-    return q.json();
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      throw new Error(`Errore nel caricamento delle citazioni: ${response.statusText}`);
+    }
+    return await response.json();
+  } catch (error) {
+    console.error('[FORTUNE-JS] Errore durante il caricamento del database:', error);
+    throw error;
+  }
 }
 
-
-//register Service Workder to handle offline content
+// Registra il Service Worker per gestire contenuti offline
 async function registerServiceWorker() {
-    if ('serviceWorker' in navigator) {
-        try {
-          await navigator.serviceWorker.register('sw.js');
-        } catch (e) {
-          alert('ServiceWorker registration failed. Sorry about that.');
-        }
-      } else {
-        console.log('[FORTUNE-JS] ERROR: Service Worker NOT supported.')
-      }
+  if ('serviceWorker' in navigator) {
+    try {
+      await navigator.serviceWorker.register('sw.js');
+      console.log('[FORTUNE-JS] Service Worker registrato con successo.');
+    } catch (error) {
+      console.error('[FORTUNE-JS] Registrazione del Service Worker fallita:', error);
+      alert('Registrazione del Service Worker fallita. Mi dispiace.');
+    }
+  } else {
+    console.warn('[FORTUNE-JS] ERRORE: Service Worker NON supportato.');
+  }
 }
 
-
-//select and display a new quote
+// Seleziona e visualizza una nuova citazione
 function updateQuote(quotes) {
-
-    //select a quote index form database
+  try {
+    // Seleziona un indice di citazione dal database
     const t = Math.floor(Date.now() / FREQ);
-    const index = (t*13) % quotes.length;
-    console.log(`[FORTUNE-JS] time: ${t}, quote: ${index} of ${quotes.length}`);
+    const index = (t * 13) % quotes.length;
+    console.log(`[FORTUNE-JS] Tempo: ${t}, citazione: ${index} di ${quotes.length}`);
 
-    //retrieve quote from database
+    // Recupera la citazione dal database
     const q = quotes[index];
 
-    //update UI
-    $('#text').html(`“${q.text}”`);
-    $('#author').html(`${q.author}`);
+    // Aggiorna l'interfaccia utente
+    document.getElementById('text').innerHTML = `“${q.text}”`;
+    document.getElementById('author').innerHTML = q.author || 'Anonimo';
 
-    //delay until next update in millies
-    var nextUpdate = FREQ - Date.now() % FREQ;
-    console.log(`[FORTUNE-JS] next update within ${Math.floor(nextUpdate / (1000*60))} minutes`);
+    // Calcola il ritardo fino al prossimo aggiornamento
+    const nextUpdate = FREQ - (Date.now() % FREQ);
+    console.log(`[FORTUNE-JS] Prossimo aggiornamento tra ${Math.floor(nextUpdate / (1000 * 60))} minuti`);
 
-    //setup trigger for next update
-    setTimeout(updateQuote, nextUpdate, quotes);
+    // Imposta il trigger per il prossimo aggiornamento
+    setTimeout(() => updateQuote(quotes), nextUpdate);
+  } catch (error) {
+    console.error('[FORTUNE-JS] Errore durante l\'aggiornamento della citazione:', error);
+  }
 }

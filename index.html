@@ -1,60 +1,45 @@
 <!DOCTYPE html>
-
 <html lang="it">
 <head>
-
-    <!-- Connection optimization -->
-    <link rel="preconnect" crossorigin="crossorigin" href="https://www.google-analytics.com">
-    <link rel="preconnect" crossorigin="crossorigin" href="https://stats.g.doubleclick.net">
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-2643168-18"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        gtag('config', 'UA-2643168-18');
-    </script>
-    
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    
-    <title>Fortune</title>
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Fortune teller as Javascript application.">
     <meta name="author" content="daniele.olmisani@gmail.com">
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <meta name="theme-color" content="#FFFFFF">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">
 
-    <meta name="theme-color" content="#FFFFFF">
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Fortune">
+    <meta property="og:description" content="Fortune teller as Javascript application.">
+    <meta property="og:image" content="./watermark-512x512.png">
+    <meta property="og:url" content="https://yourwebsite.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Fortune">
+    <meta name="twitter:description" content="Fortune teller as Javascript application.">
+    <meta name="twitter:image" content="./watermark-512x512.png">
+
+    <title>Fortune</title>
 
     <link rel="icon" href="./favicon.png">
-    <link rel="shortcut icon" href="./favicon.png">  
-
-    <!--link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet"-->
-    <link rel="stylesheet" href="./font.css">  
+    <link rel="shortcut icon" href="./favicon.png">
+    <link rel="stylesheet" href="./font.css">
     <link rel="stylesheet" href="./styles.css">
-
-    <script src="./jquery-3.4.1.min.js"></script>
-    <script src="./app.js"></script>
-
     <link rel="manifest" href="./manifest.json">
-
 </head>
-
 <body>
-    
-    <img class="watermark" src="watermark-512x512.png" alt="fortune-js"/>
+    <img class="watermark" src="watermark-512x512.png" alt="Fortune JS logo watermark">
 
     <div id="quote">
-        <div id="text"></div>
+        <div id="text" aria-live="polite"></div>
         <div id="author"></div>
     </div>
 
     <div class="signature">daniele.olmisani@gmail.com</div>
 
+    <script src="./app.js"></script>
 </body>
 </html>
