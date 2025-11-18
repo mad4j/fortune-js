@@ -22,11 +22,34 @@ async function loadQuoteDatabase(url) {
     if (!response.ok) {
       throw new Error(`Errore nel caricamento delle citazioni: ${response.statusText}`);
     }
-    return await response.json();
+    const quotes = await response.json();
+    // Calcola il giorno corrente per determinare il seed
+    const dayNumber = Math.floor(Date.now() / FREQ);
+    return shuffleArray(quotes, dayNumber);
   } catch (error) {
     console.error('[FORTUNE-JS] Errore durante il caricamento del database:', error);
     throw error;
   }
+}
+
+// Generatore di numeri pseudo-casuali con seed
+function seededRandom(seed) {
+  let state = seed;
+  return function() {
+    state = (state * 1664525 + 1013904223) % 4294967296;
+    return state / 4294967296;
+  };
+}
+
+// Mescola un array usando l'algoritmo Fisher-Yates con seed deterministico
+function shuffleArray(array, seed) {
+  const shuffled = [...array];
+  const random = seededRandom(seed);
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
 }
 
 // Registra il Service Worker per gestire contenuti offline
