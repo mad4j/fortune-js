@@ -46,6 +46,11 @@ body {
     /* Previene comportamenti indesiderati durante il refresh su mobile */
     overscroll-behavior: none;
     -webkit-overflow-scrolling: touch;
+    /* Aggiunge padding per evitare sovrapposizione con la barra di caricamento del browser */
+    padding-top: env(safe-area-inset-top);
+    padding-right: env(safe-area-inset-right);
+    padding-bottom: env(safe-area-inset-bottom);
+    padding-left: env(safe-area-inset-left);
 }
 
 /* Stile per il contenuto */
@@ -63,8 +68,8 @@ body {
 /* Stile per la filigrana */
 .watermark {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: env(safe-area-inset-top, 0);
+    left: env(safe-area-inset-left, 0);
     width: 25%;
     padding: 1vh;
     opacity: var(--opacity-watermark);
@@ -74,7 +79,7 @@ body {
 /* Stile per la firma */
 .signature {
     position: absolute;
-    bottom: 0;
+    bottom: env(safe-area-inset-bottom, 0);
     font-size: var(--font-size-signature);
     padding: 2vw;
 }
@@ -82,8 +87,8 @@ body {
 /* Pulsante di condivisione */
 .share-button {
     position: absolute;
-    top: 2vh;
-    right: 2vw;
+    top: calc(2vh + env(safe-area-inset-top, 0));
+    right: calc(2vw + env(safe-area-inset-right, 0));
     background: transparent;
     border: none;
     cursor: pointer;
