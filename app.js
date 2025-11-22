@@ -14,6 +14,103 @@ function showToast(message, duration = 3000) {
   }, duration);
 }
 
+// Crea immagine della citazione
+async function createQuoteImage() {
+  const textElement = document.getElementById('text');
+  const authorElement = document.getElementById('author');
+  
+  if (!textElement || !authorElement) return null;
+  
+  const quoteText = textElement.textContent.replace(/"/g, '');
+  const quoteAuthor = authorElement.textContent;
+  
+  // Crea canvas
+  const canvas = document.createElement('canvas');
+  const ctx = canvas.getContext('2d');
+  
+  // Dimensioni immagine (Instagram square format)
+  const width = 1080;
+  const height = 1080;
+  canvas.width = width;
+  canvas.height = height;
+  
+  // Verifica dark mode
+  const isDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const bgColor = isDark ? '#1a1a1a' : '#FFFFFF';
+  const textColor = isDark ? '#FFFFFF' : '#000000';
+  
+  // Background
+  ctx.fillStyle = bgColor;
+  ctx.fillRect(0, 0, width, height);
+  
+  // Watermark (opzionale - carica e disegna l'immagine)
+  try {
+    const watermark = document.querySelector('.watermark');
+    if (watermark && watermark.complete) {
+      ctx.globalAlpha = isDark ? 0.2 : 0.4;
+      ctx.drawImage(watermark, 40, 40, 270, 270);
+      ctx.globalAlpha = 1.0;
+    }
+  } catch (error) {
+    console.warn('[FORTUNE-JS] Watermark non disponibile:', error);
+  }
+  
+  // Font e colore testo
+  ctx.fillStyle = textColor;
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  
+  // Disegna citazione (con word wrap)
+  const maxWidth = width - 160;
+  const lineHeight = 80;
+  ctx.font = 'bold 60px Anton, sans-serif';
+  
+  const words = quoteText.split(' ');
+  const lines = [];
+  let currentLine = '';
+  
+  for (const word of words) {
+    const testLine = currentLine + (currentLine ? ' ' : '') + word;
+    const metrics = ctx.measureText(testLine);
+    
+    if (metrics.width > maxWidth && currentLine) {
+      lines.push(currentLine);
+      currentLine = word;
+    } else {
+      currentLine = testLine;
+    }
+  }
+  if (currentLine) lines.push(currentLine);
+  
+  // Centra verticalmente il testo
+  const totalHeight = lines.length * lineHeight;
+  let y = (height - totalHeight) / 2;
+  
+  for (const line of lines) {
+    ctx.fillText(line, width / 2, y);
+    y += lineHeight;
+  }
+  
+  // Disegna autore
+  y += 60;
+  ctx.font = '48px Anton, sans-serif';
+  ctx.fillText(`— ${quoteAuthor}`, width / 2, y);
+  
+  // Disegna firma in basso
+  ctx.font = '32px Anton, sans-serif';
+  ctx.fillStyle = textColor;
+  ctx.globalAlpha = 0.6;
+  ctx.fillText('daniele.olmisani@gmail.com', width / 2, height - 50);
+  ctx.globalAlpha = 1.0;
+  
+  // Converti canvas in blob
+  return new Promise((resolve) => {
+    canvas.toBlob((blob) => {
+      resolve(blob);
+    }, 'image/png');
+  });
+}
+
 // Condividi citazione
 async function shareQuote() {
   const textElement = document.getElementById('text');
@@ -29,6 +126,26 @@ async function shareQuote() {
   // Prova a usare Web Share API (mobile)
   if (navigator.share) {
     try {
+      // Prova a condividere come immagine se supportato
+      if (navigator.canShare) {
+        const imageBlob = await createQuoteImage();
+        
+        if (imageBlob) {
+          const file = new File([imageBlob], 'fortune-quote.png', { type: 'image/png' });
+          
+          if (navigator.canShare({ files: [file] })) {
+            await navigator.share({
+              title: 'Fortune - Citazione del giorno',
+              text: shareText,
+              files: [file]
+            });
+            showToast('✓ Condiviso!');
+            return;
+          }
+        }
+      }
+      
+      // Fallback: condividi solo testo
       await navigator.share({
         title: 'Fortune - Citazione del giorno',
         text: shareText,
