@@ -9,6 +9,15 @@
     --opacity-watermark: 0.4;
 }
 
+/* Dark mode automatico basato sulle preferenze del sistema */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-color: #1a1a1a;
+        --text-color: #FFFFFF;
+        --opacity-watermark: 0.2;
+    }
+}
+
 /* Impostazioni globali */
 * {
     margin: 0;
@@ -30,6 +39,7 @@ body {
     font-family: var(--font-family);
     font-size: var(--font-size-body);
     color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Stile per il contenuto */
