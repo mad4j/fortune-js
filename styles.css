@@ -23,6 +23,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* Rimuove l'evidenziazione blu su dispositivi mobili */
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
 }
 
 html, body {
@@ -40,6 +43,9 @@ body {
     font-size: var(--font-size-body);
     color: var(--text-color);
     transition: background-color 0.3s ease, color 0.3s ease;
+    /* Previene comportamenti indesiderati durante il refresh su mobile */
+    overscroll-behavior: none;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Stile per il contenuto */
