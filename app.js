@@ -1,9 +1,67 @@
 // Frequenza di aggiornamento in millisecondi
 const FREQ = 1000 * 60 * 60 * 24;
 
+// Mostra toast notification
+function showToast(message, duration = 3000) {
+  const toast = document.getElementById('toast');
+  if (!toast) return;
+  
+  toast.textContent = message;
+  toast.classList.add('show');
+  
+  setTimeout(() => {
+    toast.classList.remove('show');
+  }, duration);
+}
+
+// Condividi citazione
+async function shareQuote() {
+  const textElement = document.getElementById('text');
+  const authorElement = document.getElementById('author');
+  
+  if (!textElement || !authorElement) return;
+  
+  const quoteText = textElement.textContent;
+  const quoteAuthor = authorElement.textContent;
+  const shareText = `${quoteText}\n\n— ${quoteAuthor}`;
+  const shareUrl = window.location.href;
+  
+  // Prova a usare Web Share API (mobile)
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: 'Fortune - Citazione del giorno',
+        text: shareText,
+        url: shareUrl
+      });
+      showToast('✓ Condiviso!');
+    } catch (error) {
+      // Utente ha annullato la condivisione
+      if (error.name !== 'AbortError') {
+        console.error('[FORTUNE-JS] Errore durante la condivisione:', error);
+      }
+    }
+  } else {
+    // Fallback: copia negli appunti
+    try {
+      await navigator.clipboard.writeText(shareText);
+      showToast('✓ Copiato negli appunti!');
+    } catch (error) {
+      console.error('[FORTUNE-JS] Errore durante la copia:', error);
+      showToast('✗ Impossibile copiare');
+    }
+  }
+}
+
 // Registra eventi
 window.addEventListener('load', async () => {
   try {
+    // Aggiungi listener per il pulsante di condivisione
+    const shareButton = document.getElementById('shareButton');
+    if (shareButton) {
+      shareButton.addEventListener('click', shareQuote);
+    }
+    
     // Registra il Service Worker per supportare contenuti offline
     await registerServiceWorker();
 
