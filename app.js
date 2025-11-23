@@ -14,7 +14,81 @@ function showToast(message, duration = 3000) {
   }, duration);
 }
 
-// Condividi citazione
+// Carica html2canvas se necessario
+async function loadHtml2Canvas() {
+  // Se già caricato, ritorna immediatamente
+  if (typeof html2canvas !== 'undefined') {
+    return Promise.resolve();
+  }
+  
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+    script.crossOrigin = 'anonymous';
+    script.onload = () => {
+      // Rimuovi lo script dopo il caricamento per mantenere il DOM pulito
+      script.remove();
+      resolve();
+    };
+    script.onerror = () => {
+      script.remove();
+      reject(new Error('Impossibile caricare html2canvas'));
+    };
+    document.head.appendChild(script);
+  });
+}
+
+// Nascondi/mostra elementi per la cattura
+function toggleElementsForCapture(hide) {
+  const shareButton = document.getElementById('shareButton');
+  const toast = document.getElementById('toast');
+  
+  if (shareButton) {
+    shareButton.style.display = hide ? 'none' : '';
+  }
+  if (toast) {
+    toast.style.display = hide ? 'none' : '';
+  }
+}
+
+// Cattura screenshot della pagina
+async function captureScreenshot() {
+  try {
+    // Carica html2canvas se necessario
+    await loadHtml2Canvas();
+    
+    // Nascondi elementi temporaneamente
+    toggleElementsForCapture(true);
+    
+    // Cattura la pagina
+    const canvas = await html2canvas(document.body, {
+      backgroundColor: getComputedStyle(document.body).backgroundColor,
+      scale: 2, // Alta qualità
+      logging: false,
+      useCORS: true
+    });
+    
+    // Ripristina la visibilità
+    toggleElementsForCapture(false);
+    
+    // Converti canvas in blob
+    return new Promise((resolve, reject) => {
+      canvas.toBlob((blob) => {
+        if (blob) {
+          resolve(blob);
+        } else {
+          reject(new Error('Impossibile creare il blob dall\'immagine'));
+        }
+      }, 'image/png');
+    });
+  } catch (error) {
+    // Assicurati di ripristinare la visibilità in caso di errore
+    toggleElementsForCapture(false);
+    throw error;
+  }
+}
+
+// Condividi citazione come screenshot
 async function shareQuote() {
   const textElement = document.getElementById('text');
   const authorElement = document.getElementById('author');
@@ -23,34 +97,68 @@ async function shareQuote() {
   
   const quoteText = textElement.textContent;
   const quoteAuthor = authorElement.textContent;
-  const shareText = `${quoteText}\n\n— ${quoteAuthor}`;
   const shareUrl = window.location.href;
+  const shareText = `${quoteText}\n\n— ${quoteAuthor}\n\n${shareUrl}`;
   
-  // Prova a usare Web Share API (mobile)
-  if (navigator.share) {
-    try {
-      await navigator.share({
-        title: 'Fortune - Citazione del giorno',
-        text: shareText,
-        url: shareUrl
-      });
-      showToast('✓ Condiviso!');
-    } catch (error) {
-      // Utente ha annullato la condivisione
-      if (error.name !== 'AbortError') {
-        console.error('[FORTUNE-JS] Errore durante la condivisione:', error);
+  try {
+    // Cattura screenshot
+    const screenshot = await captureScreenshot();
+    
+    // Crea un file dall'immagine
+    const file = new File([screenshot], 'fortune-quote.png', { type: 'image/png' });
+    
+    // Prova a condividere con Web Share API (con supporto file)
+    if (navigator.canShare && navigator.canShare({ files: [file] })) {
+      try {
+        await navigator.share({
+          files: [file],
+          title: 'Fortune - Citazione del giorno',
+          text: shareText
+        });
+        showToast('✓ Condiviso!');
+      } catch (error) {
+        // Utente ha annullato la condivisione
+        if (error.name !== 'AbortError') {
+          console.error('[FORTUNE-JS] Errore durante la condivisione:', error);
+          // Fallback a download
+          downloadScreenshot(screenshot);
+        }
       }
+    } else if (navigator.share) {
+      // Fallback: condividi solo testo se file sharing non supportato
+      try {
+        await navigator.share({
+          title: 'Fortune - Citazione del giorno',
+          text: shareText,
+          url: shareUrl
+        });
+        showToast('✓ Condiviso!');
+      } catch (error) {
+        if (error.name !== 'AbortError') {
+          console.error('[FORTUNE-JS] Errore durante la condivisione:', error);
+        }
+      }
+    } else {
+      // Fallback finale: scarica l'immagine
+      downloadScreenshot(screenshot);
     }
-  } else {
-    // Fallback: copia negli appunti
-    try {
-      await navigator.clipboard.writeText(shareText);
-      showToast('✓ Copiato negli appunti!');
-    } catch (error) {
-      console.error('[FORTUNE-JS] Errore durante la copia:', error);
-      showToast('✗ Impossibile copiare');
-    }
+  } catch (error) {
+    console.error('[FORTUNE-JS] Errore durante la cattura dello screenshot:', error);
+    showToast('✗ Errore durante la cattura dello screenshot');
   }
+}
+
+// Scarica screenshot come fallback
+function downloadScreenshot(blob) {
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'fortune-quote.png';
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+  showToast('✓ Screenshot salvato!');
 }
 
 // Registra eventi
