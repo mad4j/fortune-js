@@ -25,8 +25,15 @@ async function loadHtml2Canvas() {
     const script = document.createElement('script');
     script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
     script.crossOrigin = 'anonymous';
-    script.onload = () => resolve();
-    script.onerror = () => reject(new Error('Impossibile caricare html2canvas'));
+    script.onload = () => {
+      // Rimuovi lo script dopo il caricamento per mantenere il DOM pulito
+      script.remove();
+      resolve();
+    };
+    script.onerror = () => {
+      script.remove();
+      reject(new Error('Impossibile caricare html2canvas'));
+    };
     document.head.appendChild(script);
   });
 }
