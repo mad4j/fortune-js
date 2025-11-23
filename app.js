@@ -97,7 +97,8 @@ async function shareQuote() {
   
   const quoteText = textElement.textContent;
   const quoteAuthor = authorElement.textContent;
-  const shareText = `${quoteText}\n\n— ${quoteAuthor}`;
+  const shareUrl = window.location.href;
+  const shareText = `${quoteText}\n\n— ${quoteAuthor}\n\n${shareUrl}`;
   
   try {
     // Cattura screenshot
@@ -129,7 +130,7 @@ async function shareQuote() {
         await navigator.share({
           title: 'Fortune - Citazione del giorno',
           text: shareText,
-          url: window.location.href
+          url: shareUrl
         });
         showToast('✓ Condiviso!');
       } catch (error) {
