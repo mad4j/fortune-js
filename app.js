@@ -14,67 +14,71 @@ function showToast(message, duration = 3000) {
   }, duration);
 }
 
+// Carica html2canvas se necessario
+async function loadHtml2Canvas() {
+  // Se già caricato, ritorna immediatamente
+  if (typeof html2canvas !== 'undefined') {
+    return Promise.resolve();
+  }
+  
+  return new Promise((resolve, reject) => {
+    const script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
+    script.crossOrigin = 'anonymous';
+    script.onload = () => resolve();
+    script.onerror = () => reject(new Error('Impossibile caricare html2canvas'));
+    document.head.appendChild(script);
+  });
+}
+
+// Nascondi/mostra elementi per la cattura
+function toggleElementsForCapture(hide) {
+  const shareButton = document.getElementById('shareButton');
+  const toast = document.getElementById('toast');
+  
+  if (shareButton) {
+    shareButton.style.display = hide ? 'none' : '';
+  }
+  if (toast) {
+    toast.style.display = hide ? 'none' : '';
+  }
+}
+
 // Cattura screenshot della pagina
 async function captureScreenshot() {
-  return new Promise((resolve, reject) => {
-    try {
-      // Nascondi temporaneamente il pulsante di condivisione e il toast
-      const shareButton = document.getElementById('shareButton');
-      const toast = document.getElementById('toast');
-      const originalButtonDisplay = shareButton ? shareButton.style.display : '';
-      const originalToastDisplay = toast ? toast.style.display : '';
-      
-      if (shareButton) shareButton.style.display = 'none';
-      if (toast) toast.style.display = 'none';
-      
-      // Usa html2canvas per catturare la pagina
-      const script = document.createElement('script');
-      script.src = 'https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js';
-      script.onload = async () => {
-        try {
-          const canvas = await html2canvas(document.body, {
-            backgroundColor: getComputedStyle(document.body).backgroundColor,
-            scale: 2, // Alta qualità
-            logging: false,
-            useCORS: true
-          });
-          
-          // Ripristina la visibilità degli elementi
-          if (shareButton) shareButton.style.display = originalButtonDisplay;
-          if (toast) toast.style.display = originalToastDisplay;
-          
-          // Converti canvas in blob
-          canvas.toBlob((blob) => {
-            if (blob) {
-              resolve(blob);
-            } else {
-              reject(new Error('Impossibile creare il blob dall\'immagine'));
-            }
-          }, 'image/png');
-        } catch (error) {
-          // Ripristina la visibilità in caso di errore
-          if (shareButton) shareButton.style.display = originalButtonDisplay;
-          if (toast) toast.style.display = originalToastDisplay;
-          reject(error);
+  try {
+    // Carica html2canvas se necessario
+    await loadHtml2Canvas();
+    
+    // Nascondi elementi temporaneamente
+    toggleElementsForCapture(true);
+    
+    // Cattura la pagina
+    const canvas = await html2canvas(document.body, {
+      backgroundColor: getComputedStyle(document.body).backgroundColor,
+      scale: 2, // Alta qualità
+      logging: false,
+      useCORS: true
+    });
+    
+    // Ripristina la visibilità
+    toggleElementsForCapture(false);
+    
+    // Converti canvas in blob
+    return new Promise((resolve, reject) => {
+      canvas.toBlob((blob) => {
+        if (blob) {
+          resolve(blob);
+        } else {
+          reject(new Error('Impossibile creare il blob dall\'immagine'));
         }
-      };
-      script.onerror = () => {
-        // Ripristina la visibilità in caso di errore
-        if (shareButton) shareButton.style.display = originalButtonDisplay;
-        if (toast) toast.style.display = originalToastDisplay;
-        reject(new Error('Impossibile caricare html2canvas'));
-      };
-      
-      // Controlla se html2canvas è già caricato
-      if (typeof html2canvas !== 'undefined') {
-        script.onload();
-      } else {
-        document.head.appendChild(script);
-      }
-    } catch (error) {
-      reject(error);
-    }
-  });
+      }, 'image/png');
+    });
+  } catch (error) {
+    // Assicurati di ripristinare la visibilità in caso di errore
+    toggleElementsForCapture(false);
+    throw error;
+  }
 }
 
 // Condividi citazione come screenshot
