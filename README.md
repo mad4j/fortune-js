@@ -9,7 +9,7 @@ Now featuring:
 
 ## Project technical analysis
 
-https://deepwiki.com/mad4j/fortune-js
+<https://deepwiki.com/mad4j/fortune-js>
 
 ## Notes
 
